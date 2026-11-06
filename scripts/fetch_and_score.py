@@ -171,10 +171,58 @@ def round_tick(x, price):
     return round(round(x / tick) * tick, 1)
 
 
+# ── 注意フラグ（損失回避のための表示。ランキング順位には影響させない）──
+# 根拠は 2026-11-06 の検証（~/workspace/kabu-research/research/、2016-2024・日経225外も含む全銘柄）:
+#  001 ストップ高翌日ドリフト: 終値ストップ高の翌日始値で買うと大幅に劣後（5日純超過 -2.94%、10,964件）
+#  005 夜間/日中分解: 直近6か月の上昇が日中主導の銘柄群（上位20%）は市場平均を有意に下回る（-0.026%/日）
+# いずれも「買いの根拠」ではなく「避ける・慎重になる根拠」としてのみ使う。
+
+LIMIT_BANDS = [  # 東証の制限値幅（基準値段の上限, 制限幅）円
+    (100, 30), (200, 50), (500, 80), (700, 100), (1000, 150), (1500, 200),
+    (2000, 300), (3000, 400), (5000, 700), (7000, 1000), (10000, 1500),
+    (15000, 2000), (20000, 3000), (30000, 4000), (50000, 7000), (70000, 10000),
+    (100000, 15000), (150000, 20000), (200000, 30000), (300000, 40000),
+    (500000, 70000), (700000, 100000), (1000000, 150000), (1500000, 200000),
+    (2000000, 300000), (3000000, 400000), (5000000, 700000), (float("inf"), 1000000),
+]
+
+
+def limit_width(prev_close):
+    for cap, width in LIMIT_BANDS:
+        if prev_close < cap:
+            return width
+    return 1000000
+
+
+def is_limit_up_close(bars, i):
+    """bars[i] が（前日終値基準の）ストップ高で引けたか。生価格で判定する。"""
+    if i < 1:
+        return False
+    prev_c, cur_c = bars[i - 1]["c"], bars[i]["c"]
+    if not prev_c or not cur_c or cur_c <= prev_c:
+        return False
+    return (cur_c - prev_c) >= limit_width(prev_c) - 0.5
+
+
+def intraday_signal(bars, days=126):
+    """直近 days 営業日の（日中累積 − 夜間累積）logリターン。検証005の定義に倣う。
+
+    有効バーが100本未満なら None。生価格ベースの近似（分割調整はしていない）。
+    """
+    if len(bars) < 101:
+        return None
+    seg = bars[-(days + 1):]
+    s = 0.0
+    for i in range(1, len(seg)):
+        o, c, pc = seg[i]["o"], seg[i]["c"], seg[i - 1]["c"]
+        if o and c and pc:
+            s += math.log(c / o) - math.log(o / pc)
+    return s
+
+
 def price_levels(price, atr_yen, ma25):
     """購入目標・利確目標・損切りを ATR(14) から機械的に算出する（予測ではなく目安）。
 
-    - 購入目標 E = 現在値 − 0.5×ATR（押し目で拾う想定）
     - 損切り   S = E − 1.0×ATR（終値がこの価格以下で確定したら撤退）
     - 利確目標 T = E + 2.0×ATR。ただし25日線がその手前にあれば25日線を目標にする
       （売られ過ぎの反発は、まず移動平均への回帰が現実的な到達点のため）
@@ -331,6 +379,13 @@ def score_stock(bars, index_chg_today, index_closes):
     s_st = clamp(s_st, 0, 10)
 
     total = round(s_rs + s_os + s_rev + s_tr + s_lq + s_st, 1)
+    # 注意フラグ（順位には影響させない。根拠はファイル冒頭のコメント参照）
+    caution_flags = []
+    if is_limit_up_close(bars, len(bars) - 1):
+        caution_flags.append({
+            "type": "limit_up",
+            "label": "ストップ高で引け（翌日の追いかけ買いは検証で大幅劣後）",
+        })
     return {
         "price": last["c"], "change_pct": round(chg, 2),
         "rsi": round(rsi, 1) if rsi is not None else None,
@@ -351,6 +406,8 @@ def score_stock(bars, index_chg_today, index_closes):
         "reasons": reasons[:4],
         "risks": risks[:3],
         "levels": price_levels(last["c"], (atrp / 100 * last["c"]) if atrp else None, ma25),
+        "caution_flags": caution_flags,
+        "_s_intra": intraday_signal(bars),
         "invalid_if": "終値で直近安値を更新したら候補から外す",
     }
 
@@ -397,6 +454,18 @@ def main():
 
     ok = [r for r in results if "score" in r]
     ng = [r for r in results if "score" not in r]
+    # 日中主導フラグ: シグナル（日中累積−夜間累積）の上位20%に注意フラグを付ける（検証005）
+    sigs = sorted(r["_s_intra"] for r in ok if r.get("_s_intra") is not None)
+    if len(sigs) >= 50:
+        thr = sigs[int(len(sigs) * 0.8)]
+        for r in ok:
+            if r.get("_s_intra") is not None and r["_s_intra"] >= thr:
+                r["caution_flags"].append({
+                    "type": "intraday_dominant",
+                    "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）",
+                })
+    for r in ok:
+        r.pop("_s_intra", None)
     ok.sort(key=lambda x: x["score"], reverse=True)
     adv = sum(1 for r in ok if r["change_pct"] > 0)
     regime = "panic" if idx_chg <= -3 else ("weak" if idx_chg <= -1 else "normal")

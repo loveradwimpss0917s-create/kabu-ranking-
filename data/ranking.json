@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T16:24:52+09:00",
+ "generated_at": "2026-11-06T17:22:51+09:00",
  "market": {
   "index_name": "日経平均",
   "index_value": 57434.76953125,
@@ -79,6 +79,12 @@
     "reward_pct": 7.7,
     "rr": 2.0
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8697",
    "name": "日本取引所グループ",
@@ -150,6 +156,7 @@
     "reward_pct": 8.1,
     "rr": 1.99
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "1605",
    "name": "INPEX",
@@ -219,6 +226,7 @@
     "reward_pct": 0.6,
     "rr": 0.26
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5411",
    "name": "JFEホールディングス",
@@ -288,6 +296,7 @@
     "reward_pct": 6.6,
     "rr": 1.33
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9697",
    "name": "カプコン",
@@ -361,6 +370,7 @@
     "reward_pct": 7.5,
     "rr": 1.98
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5332",
    "name": "TOTO",
@@ -431,6 +441,7 @@
     "reward_pct": 4.2,
     "rr": 1.58
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "3402",
    "name": "東レ",
@@ -501,6 +512,7 @@
     "reward_pct": 5.7,
     "rr": 1.97
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4689",
    "name": "LINEヤフー",
@@ -571,6 +583,7 @@
     "reward_pct": 0.2,
     "rr": 0.07
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7202",
    "name": "いすゞ自動車",
@@ -641,6 +654,7 @@
     "reward_pct": 9.4,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8308",
    "name": "りそなホールディングス",
@@ -711,6 +725,7 @@
     "reward_pct": 7.0,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8304",
    "name": "あおぞら銀行",
@@ -780,6 +795,7 @@
     "reward_pct": 6.4,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7752",
    "name": "リコー",
@@ -849,6 +865,12 @@
     "reward_pct": 7.2,
     "rr": 2.02
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8309",
    "name": "三井住友トラストグループ",
@@ -918,6 +940,7 @@
     "reward_pct": 8.7,
     "rr": 1.98
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6098",
    "name": "リクルートホールディングス",
@@ -987,6 +1010,7 @@
     "reward_pct": 5.9,
     "rr": 2.01
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "3659",
    "name": "ネクソン",
@@ -1059,6 +1083,7 @@
     "reward_pct": 8.7,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7186",
    "name": "横浜フィナンシャルグループ",
@@ -1129,6 +1154,7 @@
     "reward_pct": 8.8,
     "rr": 1.99
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5831",
    "name": "しずおかフィナンシャルグループ",
@@ -1201,6 +1227,7 @@
     "reward_pct": 9.8,
     "rr": 2.01
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7013",
    "name": "IHI",
@@ -1272,6 +1299,7 @@
     "reward_pct": 5.4,
     "rr": 2.12
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9432",
    "name": "NTT",
@@ -1340,6 +1368,7 @@
     "reward_pct": 3.0,
     "rr": 1.27
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9434",
    "name": "ソフトバンク",
@@ -1410,6 +1439,12 @@
     "reward_pct": 4.8,
     "rr": 1.42
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "2413",
    "name": "エムスリー",
@@ -1480,6 +1515,12 @@
     "reward_pct": 3.5,
     "rr": 1.27
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7751",
    "name": "キヤノン",
@@ -1550,6 +1591,7 @@
     "reward_pct": 5.1,
     "rr": 1.39
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4578",
    "name": "大塚ホールディングス",
@@ -1620,6 +1662,7 @@
     "reward_pct": 2.4,
     "rr": 0.97
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "2269",
    "name": "明治ホールディングス",
@@ -1693,6 +1736,7 @@
     "reward_pct": 9.7,
     "rr": 2.01
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4061",
    "name": "デンカ",
@@ -1763,6 +1807,7 @@
     "reward_pct": 7.9,
     "rr": 1.99
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8316",
    "name": "三井住友フィナンシャルグループ",
@@ -1834,6 +1879,7 @@
     "reward_pct": 9.3,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6503",
    "name": "三菱電機",
@@ -1903,6 +1949,7 @@
     "reward_pct": 5.1,
     "rr": 1.99
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4208",
    "name": "UBE",
@@ -1973,6 +2020,12 @@
     "reward_pct": 9.0,
     "rr": 2.0
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6861",
    "name": "キーエンス",
@@ -2043,6 +2096,7 @@
     "reward_pct": 9.6,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8331",
    "name": "千葉銀行",
@@ -2114,6 +2168,12 @@
     "reward_pct": 7.8,
     "rr": 2.0
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8306",
    "name": "三菱UFJフィナンシャル・グループ",
@@ -2182,6 +2242,7 @@
     "reward_pct": 2.8,
     "rr": 1.16
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9433",
    "name": "KDDI",
@@ -2251,6 +2312,7 @@
     "reward_pct": 5.2,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9735",
    "name": "セコム",
@@ -2322,6 +2384,7 @@
     "reward_pct": 5.2,
     "rr": 1.41
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8002",
    "name": "丸紅",
@@ -2392,6 +2455,7 @@
     "reward_pct": 1.2,
     "rr": 0.48
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "3405",
    "name": "クラレ",
@@ -2460,6 +2524,7 @@
     "reward_pct": 4.6,
     "rr": 1.99
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5108",
    "name": "ブリヂストン",
@@ -2531,6 +2596,12 @@
     "reward_pct": 9.6,
     "rr": 1.99
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8411",
    "name": "みずほフィナンシャルグループ",
@@ -2602,6 +2673,7 @@
     "reward_pct": 6.4,
     "rr": 2.03
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4063",
    "name": "信越化学工業",
@@ -2673,6 +2745,12 @@
     "reward_pct": 6.9,
     "rr": 2.0
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9101",
    "name": "日本郵船",
@@ -2744,6 +2822,7 @@
     "reward_pct": 4.0,
     "rr": 1.97
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5406",
    "name": "神戸製鋼所",
@@ -2814,6 +2893,7 @@
     "reward_pct": 6.0,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9503",
    "name": "関西電力",
@@ -2881,6 +2961,12 @@
     "reward_pct": 4.4,
     "rr": 1.47
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8725",
    "name": "MS&ADインシュアランスグループホールディングス",
@@ -2952,6 +3038,7 @@
     "reward_pct": 9.3,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7741",
    "name": "HOYA",
@@ -3021,6 +3108,12 @@
     "reward_pct": 3.0,
     "rr": 0.81
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7974",
    "name": "任天堂",
@@ -3092,6 +3185,7 @@
     "reward_pct": 8.1,
     "rr": 2.02
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9104",
    "name": "商船三井",
@@ -3160,6 +3254,12 @@
     "reward_pct": 4.1,
     "rr": 2.0
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "2432",
    "name": "ディー・エヌ・エー",
@@ -3227,6 +3327,7 @@
     "reward_pct": 4.8,
     "rr": 1.38
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "3092",
    "name": "ZOZO",
@@ -3295,6 +3396,7 @@
     "reward_pct": 6.9,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9983",
    "name": "ファーストリテイリング",
@@ -3368,6 +3470,7 @@
     "reward_pct": 8.7,
     "rr": 1.99
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4183",
    "name": "三井化学",
@@ -3438,6 +3541,12 @@
     "reward_pct": 5.7,
     "rr": 2.0
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9147",
    "name": "NIPPONEXPRESSホールディングス",
@@ -3505,6 +3614,12 @@
     "reward_pct": 5.3,
     "rr": 1.98
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7267",
    "name": "本田技研工業",
@@ -3574,6 +3689,7 @@
     "reward_pct": 8.6,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8354",
    "name": "ふくおかフィナンシャルグループ",
@@ -3643,6 +3759,7 @@
     "reward_pct": 4.0,
     "rr": 1.99
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6367",
    "name": "ダイキン工業",
@@ -3712,6 +3829,7 @@
     "reward_pct": 4.4,
     "rr": 1.99
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9202",
    "name": "ANAホールディングス",
@@ -3779,6 +3897,7 @@
     "reward_pct": 0.6,
     "rr": 0.24
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4751",
    "name": "サイバーエージェント",
@@ -3850,6 +3969,12 @@
     "reward_pct": 8.1,
     "rr": 2.0
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9107",
    "name": "川崎汽船",
@@ -3918,6 +4043,7 @@
     "reward_pct": 10.1,
     "rr": 2.01
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6532",
    "name": "ベイカレント",
@@ -3985,6 +4111,7 @@
     "reward_pct": 0.7,
     "rr": 0.29
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6902",
    "name": "デンソー",
@@ -4052,6 +4179,7 @@
     "reward_pct": 6.9,
     "rr": 1.97
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8766",
    "name": "東京海上ホールディングス",
@@ -4119,6 +4247,7 @@
     "reward_pct": 5.6,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7261",
    "name": "マツダ",
@@ -4191,6 +4320,7 @@
     "reward_pct": 9.3,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4043",
    "name": "トクヤマ",
@@ -4261,6 +4391,12 @@
     "reward_pct": 4.9,
     "rr": 2.0
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4901",
    "name": "富士フイルムホールディングス",
@@ -4328,6 +4464,7 @@
     "reward_pct": 8.4,
     "rr": 1.98
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7832",
    "name": "バンダイナムコホールディングス",
@@ -4399,6 +4536,7 @@
     "reward_pct": 3.5,
     "rr": 0.9
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5101",
    "name": "横浜ゴム",
@@ -4468,6 +4606,7 @@
     "reward_pct": 0.1,
     "rr": 0.04
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5233",
    "name": "太平洋セメント",
@@ -4536,6 +4675,7 @@
     "reward_pct": 5.0,
     "rr": 1.99
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4452",
    "name": "花王",
@@ -4604,6 +4744,7 @@
     "reward_pct": 6.6,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6758",
    "name": "ソニーグループ",
@@ -4672,6 +4813,7 @@
     "reward_pct": 5.4,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7269",
    "name": "スズキ",
@@ -4740,6 +4882,7 @@
     "reward_pct": 5.1,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9021",
    "name": "西日本旅客鉄道",
@@ -4807,6 +4950,12 @@
     "reward_pct": 6.3,
     "rr": 2.0
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4324",
    "name": "電通グループ",
@@ -4876,6 +5025,7 @@
     "reward_pct": 2.6,
     "rr": 0.84
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8001",
    "name": "伊藤忠商事",
@@ -4946,6 +5096,7 @@
     "reward_pct": 7.1,
     "rr": 1.99
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6988",
    "name": "日東電工",
@@ -5013,6 +5164,7 @@
     "reward_pct": 6.2,
     "rr": 1.99
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4507",
    "name": "塩野義製薬",
@@ -5080,6 +5232,12 @@
     "reward_pct": 4.8,
     "rr": 1.98
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "3382",
    "name": "セブン&アイ・ホールディングス",
@@ -5147,6 +5305,7 @@
     "reward_pct": 1.9,
     "rr": 0.53
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9843",
    "name": "ニトリホールディングス",
@@ -5219,6 +5378,7 @@
     "reward_pct": 13.3,
     "rr": 1.99
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5301",
    "name": "東海カーボン",
@@ -5291,6 +5451,7 @@
     "reward_pct": 7.3,
     "rr": 1.99
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "1801",
    "name": "大成建設",
@@ -5358,6 +5519,7 @@
     "reward_pct": 0.0,
     "rr": 0.02
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8252",
    "name": "丸井グループ",
@@ -5428,6 +5590,12 @@
     "reward_pct": 11.2,
     "rr": 1.99
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5713",
    "name": "住友金属鉱山",
@@ -5500,6 +5668,7 @@
     "reward_pct": 21.7,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6857",
    "name": "アドバンテスト",
@@ -5569,6 +5738,7 @@
     "reward_pct": 5.5,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "1928",
    "name": "積水ハウス",
@@ -5638,6 +5808,7 @@
     "reward_pct": 5.5,
     "rr": 2.01
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9201",
    "name": "日本航空",
@@ -5708,6 +5879,7 @@
     "reward_pct": 6.6,
     "rr": 2.01
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7203",
    "name": "トヨタ自動車",
@@ -5779,6 +5951,7 @@
     "reward_pct": 7.5,
     "rr": 1.99
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6471",
    "name": "日本精工",
@@ -5848,6 +6021,7 @@
     "reward_pct": 5.6,
     "rr": 2.03
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4502",
    "name": "武田薬品工業",
@@ -5915,6 +6089,7 @@
     "reward_pct": 6.9,
     "rr": 2.01
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4503",
    "name": "アステラス製薬",
@@ -5987,6 +6162,7 @@
     "reward_pct": 7.7,
     "rr": 1.99
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "2768",
    "name": "双日",
@@ -6054,6 +6230,12 @@
     "reward_pct": 1.8,
     "rr": 0.42
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4307",
    "name": "野村総合研究所",
@@ -6123,6 +6305,12 @@
     "reward_pct": 6.5,
     "rr": 2.01
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4661",
    "name": "オリエンタルランド",
@@ -6190,6 +6378,7 @@
     "reward_pct": 5.8,
     "rr": 2.01
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "2503",
    "name": "キリンホールディングス",
@@ -6262,6 +6451,12 @@
     "reward_pct": 21.3,
     "rr": 2.0
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6920",
    "name": "レーザーテック",
@@ -6329,6 +6524,7 @@
     "reward_pct": 0.3,
     "rr": 0.15
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5401",
    "name": "日本製鉄",
@@ -6396,6 +6592,7 @@
     "reward_pct": 8.9,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9602",
    "name": "東宝",
@@ -6467,6 +6664,7 @@
     "reward_pct": 10.6,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6473",
    "name": "ジェイテクト",
@@ -6534,6 +6732,7 @@
     "reward_pct": 0.6,
     "rr": 0.26
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9005",
    "name": "東急",
@@ -6601,6 +6800,7 @@
     "reward_pct": 13.9,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "3697",
    "name": "SHIFT",
@@ -6672,6 +6872,7 @@
     "reward_pct": 4.2,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "3861",
    "name": "王子ホールディングス",
@@ -6741,6 +6942,7 @@
     "reward_pct": 6.8,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4543",
    "name": "テルモ",
@@ -6814,6 +7016,7 @@
     "reward_pct": 15.8,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6526",
    "name": "ソシオネクスト",
@@ -6881,6 +7084,7 @@
     "reward_pct": 8.3,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7453",
    "name": "良品計画",
@@ -6952,6 +7156,12 @@
     "reward_pct": 11.4,
     "rr": 2.0
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4704",
    "name": "トレンドマイクロ",
@@ -7021,6 +7231,7 @@
     "reward_pct": 4.5,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9009",
    "name": "京成電鉄",
@@ -7089,6 +7300,12 @@
     "reward_pct": 6.0,
     "rr": 1.87
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7733",
    "name": "オリンパス",
@@ -7159,6 +7376,7 @@
     "reward_pct": 10.2,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9766",
    "name": "コナミグループ",
@@ -7230,6 +7448,7 @@
     "reward_pct": 4.0,
     "rr": 1.17
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7201",
    "name": "日産自動車",
@@ -7302,6 +7521,12 @@
     "reward_pct": 6.5,
     "rr": 1.98
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7272",
    "name": "ヤマハ発動機",
@@ -7374,6 +7599,7 @@
     "reward_pct": 7.7,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7012",
    "name": "川崎重工業",
@@ -7445,6 +7671,7 @@
     "reward_pct": 6.1,
     "rr": 1.98
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8750",
    "name": "第一ライフグループ",
@@ -7512,6 +7739,7 @@
     "reward_pct": 0.4,
     "rr": 0.18
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9007",
    "name": "小田急電鉄",
@@ -7581,6 +7809,7 @@
     "reward_pct": 6.8,
     "rr": 2.02
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4519",
    "name": "中外製薬",
@@ -7650,6 +7879,7 @@
     "reward_pct": 7.0,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9064",
    "name": "ヤマトホールディングス",
@@ -7720,6 +7950,7 @@
     "reward_pct": 2.3,
     "rr": 0.62
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "2801",
    "name": "キッコーマン",
@@ -7789,6 +8020,7 @@
     "reward_pct": 6.5,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "2002",
    "name": "日清製粉グループ本社",
@@ -7858,6 +8090,7 @@
     "reward_pct": 2.3,
     "rr": 0.76
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4523",
    "name": "エーザイ",
@@ -7930,6 +8163,7 @@
     "reward_pct": 12.0,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6103",
    "name": "オークマ",
@@ -8000,6 +8234,12 @@
     "reward_pct": 10.4,
     "rr": 2.0
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6501",
    "name": "日立製作所",
@@ -8069,6 +8309,7 @@
     "reward_pct": 6.1,
     "rr": 1.99
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9022",
    "name": "東海旅客鉄道",
@@ -8136,6 +8377,7 @@
     "reward_pct": 4.8,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "1925",
    "name": "大和ハウス工業",
@@ -8203,6 +8445,7 @@
     "reward_pct": 6.3,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9020",
    "name": "東日本旅客鉄道",
@@ -8268,6 +8511,7 @@
     "reward_pct": 1.4,
     "rr": 0.56
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "2871",
    "name": "ニチレイ",
@@ -8338,6 +8582,7 @@
     "reward_pct": 6.3,
     "rr": 2.01
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6178",
    "name": "日本郵政",
@@ -8409,6 +8654,7 @@
     "reward_pct": 5.8,
     "rr": 1.99
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6326",
    "name": "クボタ",
@@ -8476,6 +8722,12 @@
     "reward_pct": 5.3,
     "rr": 2.02
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "2502",
    "name": "アサヒグループホールディングス",
@@ -8545,6 +8797,12 @@
     "reward_pct": 5.3,
     "rr": 1.99
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7270",
    "name": "SUBARU",
@@ -8610,6 +8868,12 @@
     "reward_pct": 5.8,
     "rr": 2.0
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7532",
    "name": "パン・パシフィック・インターナショナルホールディングス",
@@ -8675,6 +8939,7 @@
     "reward_pct": 1.8,
     "rr": 0.48
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8233",
    "name": "高島屋",
@@ -8746,6 +9011,7 @@
     "reward_pct": 6.9,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "2282",
    "name": "日本ハム",
@@ -8813,6 +9079,7 @@
     "reward_pct": 6.8,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8801",
    "name": "三井不動産",
@@ -8880,6 +9147,7 @@
     "reward_pct": 4.8,
     "rr": 1.41
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4755",
    "name": "楽天グループ",
@@ -8950,6 +9218,7 @@
     "reward_pct": 5.2,
     "rr": 2.01
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8253",
    "name": "クレディセゾン",
@@ -9015,6 +9284,7 @@
     "reward_pct": 4.5,
     "rr": 1.58
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9532",
    "name": "大阪瓦斯",
@@ -9084,6 +9354,7 @@
     "reward_pct": 7.6,
     "rr": 2.01
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8058",
    "name": "三菱商事",
@@ -9155,6 +9426,7 @@
     "reward_pct": 5.8,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8591",
    "name": "オリックス",
@@ -9225,6 +9497,7 @@
     "reward_pct": 6.8,
     "rr": 1.98
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8601",
    "name": "大和証券グループ本社",
@@ -9292,6 +9565,7 @@
     "reward_pct": 3.3,
     "rr": 0.69
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4385",
    "name": "メルカリ",
@@ -9359,6 +9633,7 @@
     "reward_pct": 1.7,
     "rr": 0.57
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9531",
    "name": "東京瓦斯",
@@ -9430,6 +9705,7 @@
     "reward_pct": 9.4,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4188",
    "name": "三菱ケミカルグループ",
@@ -9501,6 +9777,7 @@
     "reward_pct": 7.5,
     "rr": 1.98
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5714",
    "name": "DOWAホールディングス",
@@ -9568,6 +9845,7 @@
     "reward_pct": 2.8,
     "rr": 0.95
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8630",
    "name": "SOMPOホールディングス",
@@ -9638,6 +9916,12 @@
     "reward_pct": 7.9,
     "rr": 2.0
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9502",
    "name": "中部電力",
@@ -9708,6 +9992,7 @@
     "reward_pct": 10.1,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6113",
    "name": "アマダ",
@@ -9779,6 +10064,7 @@
     "reward_pct": 6.0,
     "rr": 1.99
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "1812",
    "name": "鹿島建設",
@@ -9850,6 +10136,7 @@
     "reward_pct": 6.0,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "3407",
    "name": "旭化成",
@@ -9923,6 +10210,7 @@
     "reward_pct": 17.3,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6146",
    "name": "ディスコ",
@@ -9996,6 +10284,12 @@
     "reward_pct": 22.5,
     "rr": 2.0
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6981",
    "name": "村田製作所",
@@ -10068,6 +10362,7 @@
     "reward_pct": 7.4,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "3099",
    "name": "三越伊勢丹ホールディングス",
@@ -10139,6 +10434,7 @@
     "reward_pct": 8.5,
     "rr": 1.99
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8053",
    "name": "住友商事",
@@ -10211,6 +10507,7 @@
     "reward_pct": 9.5,
     "rr": 1.99
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6841",
    "name": "横河電機",
@@ -10283,6 +10580,7 @@
     "reward_pct": 6.2,
     "rr": 1.87
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8795",
    "name": "T&Dホールディングス",
@@ -10350,6 +10648,7 @@
     "reward_pct": 5.5,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "1808",
    "name": "長谷工コーポレーション",
@@ -10415,6 +10714,7 @@
     "reward_pct": 0.9,
     "rr": 0.37
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9008",
    "name": "京王電鉄",
@@ -10485,6 +10785,7 @@
     "reward_pct": 10.0,
     "rr": 1.99
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6770",
    "name": "アルプスアルパイン",
@@ -10546,12 +10847,13 @@
    "levels": {
     "entry": 2117.0,
     "take_profit": 2296.0,
-    "stop_loss": 2028.0,
+    "stop_loss": 2027.0,
     "tp_basis": "ATR×2.0",
-    "risk_pct": 4.2,
+    "risk_pct": 4.3,
     "reward_pct": 8.5,
-    "rr": 2.01
+    "rr": 1.99
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "2501",
    "name": "サッポロビール",
@@ -10622,6 +10924,7 @@
     "reward_pct": 8.0,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4911",
    "name": "資生堂",
@@ -10690,6 +10993,12 @@
     "reward_pct": 8.5,
     "rr": 2.0
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6753",
    "name": "シャープ",
@@ -10755,6 +11064,7 @@
     "reward_pct": 0.5,
     "rr": 0.21
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9001",
    "name": "東武鉄道",
@@ -10827,6 +11137,7 @@
     "reward_pct": 7.1,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8031",
    "name": "三井物産",
@@ -10894,6 +11205,7 @@
     "reward_pct": 1.5,
     "rr": 0.53
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "1802",
    "name": "大林組",
@@ -10967,6 +11279,12 @@
     "reward_pct": 25.5,
     "rr": 2.0
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6976",
    "name": "太陽誘電",
@@ -11040,6 +11358,7 @@
     "reward_pct": 24.7,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7735",
    "name": "SCREENホールディングス",
@@ -11107,6 +11426,7 @@
     "reward_pct": 5.7,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "3289",
    "name": "東急不動産ホールディングス",
@@ -11179,6 +11499,7 @@
     "reward_pct": 13.6,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5333",
    "name": "NGK",
@@ -11250,6 +11571,7 @@
     "reward_pct": 9.7,
     "rr": 1.99
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7011",
    "name": "三菱重工業",
@@ -11322,6 +11644,12 @@
     "reward_pct": 16.0,
     "rr": 2.0
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6752",
    "name": "パナソニックホールディングス",
@@ -11393,6 +11721,7 @@
     "reward_pct": 6.0,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "1803",
    "name": "清水建設",
@@ -11465,6 +11794,7 @@
     "reward_pct": 25.6,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4004",
    "name": "レゾナック・ホールディングス",
@@ -11536,6 +11866,7 @@
     "reward_pct": 7.7,
     "rr": 1.98
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "3401",
    "name": "帝人",
@@ -11608,6 +11939,7 @@
     "reward_pct": 11.5,
     "rr": 1.99
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6479",
    "name": "ミネベアミツミ",
@@ -11676,6 +12008,12 @@
     "reward_pct": 3.9,
     "rr": 1.12
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8604",
    "name": "野村ホールディングス",
@@ -11747,6 +12085,12 @@
     "reward_pct": 12.9,
     "rr": 2.01
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6971",
    "name": "京セラ",
@@ -11819,6 +12163,12 @@
     "reward_pct": 16.2,
     "rr": 2.01
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8035",
    "name": "東京エレクトロン",
@@ -11891,6 +12241,7 @@
     "reward_pct": 17.0,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6723",
    "name": "ルネサスエレクトロニクス",
@@ -11962,6 +12313,7 @@
     "reward_pct": 14.8,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6504",
    "name": "富士電機",
@@ -12031,6 +12383,7 @@
     "reward_pct": 1.9,
     "rr": 0.52
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7211",
    "name": "三菱自動車工業",
@@ -12101,6 +12454,12 @@
     "reward_pct": 11.1,
     "rr": 2.0
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6273",
    "name": "SMC",
@@ -12166,6 +12525,7 @@
     "reward_pct": 5.8,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8804",
    "name": "東京建物",
@@ -12238,6 +12598,7 @@
     "reward_pct": 16.8,
     "rr": 1.99
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5016",
    "name": "JX金属",
@@ -12309,6 +12670,7 @@
     "reward_pct": 10.3,
     "rr": 2.02
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8015",
    "name": "豊田通商",
@@ -12379,6 +12741,7 @@
     "reward_pct": 0.8,
     "rr": 0.14
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4506",
    "name": "住友ファーマ",
@@ -12444,6 +12807,12 @@
     "reward_pct": 6.2,
     "rr": 2.0
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4151",
    "name": "協和キリン",
@@ -12514,6 +12883,7 @@
     "reward_pct": 8.4,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8802",
    "name": "三菱地所",
@@ -12586,6 +12956,7 @@
     "reward_pct": 7.4,
     "rr": 2.01
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "1963",
    "name": "日揮ホールディングス",
@@ -12657,6 +13028,7 @@
     "reward_pct": 7.4,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7912",
    "name": "大日本印刷",
@@ -12729,6 +13101,7 @@
     "reward_pct": 5.6,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "1332",
    "name": "ニッスイ",
@@ -12801,6 +13174,7 @@
     "reward_pct": 9.0,
     "rr": 1.98
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6954",
    "name": "ファナック",
@@ -12872,6 +13246,7 @@
     "reward_pct": 9.3,
     "rr": 2.02
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4021",
    "name": "日産化学",
@@ -12944,6 +13319,12 @@
     "reward_pct": 11.2,
     "rr": 2.0
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6302",
    "name": "住友重機械工業",
@@ -13016,6 +13397,12 @@
     "reward_pct": 25.4,
     "rr": 2.0
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "3436",
    "name": "SUMCO",
@@ -13081,6 +13468,7 @@
     "reward_pct": 7.1,
     "rr": 2.02
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8267",
    "name": "イオン",
@@ -13151,6 +13539,12 @@
     "reward_pct": 8.7,
     "rr": 2.02
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "2914",
    "name": "日本たばこ産業",
@@ -13220,6 +13614,7 @@
     "reward_pct": 1.4,
     "rr": 0.31
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4568",
    "name": "第一三共",
@@ -13291,6 +13686,7 @@
     "reward_pct": 7.4,
     "rr": 2.01
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6305",
    "name": "日立建機",
@@ -13359,6 +13755,7 @@
     "reward_pct": 1.8,
     "rr": 0.44
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8830",
    "name": "住友不動産",
@@ -13429,6 +13826,7 @@
     "reward_pct": 11.0,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6645",
    "name": "オムロン",
@@ -13501,6 +13899,7 @@
     "reward_pct": 10.7,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5214",
    "name": "日本電気硝子",
@@ -13572,6 +13971,7 @@
     "reward_pct": 18.2,
     "rr": 1.99
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5802",
    "name": "住友電気工業",
@@ -13637,6 +14037,7 @@
     "reward_pct": 8.3,
     "rr": 2.01
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "3086",
    "name": "J.フロントリテイリング",
@@ -13707,6 +14108,12 @@
     "reward_pct": 9.3,
     "rr": 2.02
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6301",
    "name": "小松製作所",
@@ -13778,6 +14185,7 @@
     "reward_pct": 12.2,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5631",
    "name": "日本製鋼所",
@@ -13849,6 +14257,7 @@
     "reward_pct": 5.8,
     "rr": 2.02
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4042",
    "name": "東ソー",
@@ -13919,6 +14328,7 @@
     "reward_pct": 8.5,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6472",
    "name": "NTN",
@@ -13988,6 +14398,7 @@
     "reward_pct": 3.7,
     "rr": 1.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7951",
    "name": "ヤマハ",
@@ -14059,6 +14470,7 @@
     "reward_pct": 8.4,
     "rr": 1.98
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5020",
    "name": "ENEOSホールディングス",
@@ -14130,6 +14542,7 @@
     "reward_pct": 13.2,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6361",
    "name": "荏原製作所",
@@ -14201,6 +14614,7 @@
     "reward_pct": 24.3,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6525",
    "name": "KOKUSAIELECTRIC",
@@ -14272,6 +14686,7 @@
     "reward_pct": 16.9,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6762",
    "name": "TDK",
@@ -14344,6 +14759,7 @@
     "reward_pct": 35.4,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "285A",
    "name": "キオクシアホールディングス",
@@ -14415,6 +14831,12 @@
     "reward_pct": 9.4,
     "rr": 2.0
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7731",
    "name": "ニコン",
@@ -14486,6 +14908,12 @@
     "reward_pct": 31.7,
     "rr": 2.01
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4062",
    "name": "イビデン",
@@ -14558,6 +14986,7 @@
     "reward_pct": 9.4,
     "rr": 1.99
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7911",
    "name": "TOPPANホールディングス",
@@ -14629,6 +15058,7 @@
     "reward_pct": 6.9,
     "rr": 1.99
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "1721",
    "name": "コムシスホールディングス",
@@ -14698,6 +15128,7 @@
     "reward_pct": 12.0,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6702",
    "name": "富士通",
@@ -14767,6 +15198,7 @@
     "reward_pct": 7.1,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5201",
    "name": "AGC",
@@ -14838,6 +15270,7 @@
     "reward_pct": 22.7,
     "rr": 1.99
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5706",
    "name": "三井金属",
@@ -14907,6 +15340,7 @@
     "reward_pct": 9.8,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5711",
    "name": "三菱マテリアル",
@@ -14978,6 +15412,7 @@
     "reward_pct": 11.0,
     "rr": 2.02
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4005",
    "name": "住友化学",
@@ -15049,6 +15484,7 @@
     "reward_pct": 27.4,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5801",
    "name": "古河電気工業",
@@ -15121,6 +15557,12 @@
     "reward_pct": 19.8,
     "rr": 2.0
    },
+   "caution_flags": [
+    {
+     "type": "intraday_dominant",
+     "label": "日中主導型（直近6か月の上げが日中中心。検証で市場平均を下回る傾向）"
+    }
+   ],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9984",
    "name": "ソフトバンクグループ",
@@ -15190,6 +15632,7 @@
     "reward_pct": 11.0,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6701",
    "name": "日本電気",
@@ -15259,6 +15702,7 @@
     "reward_pct": 12.5,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6506",
    "name": "安川電機",
@@ -15330,6 +15774,7 @@
     "reward_pct": 21.7,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5803",
    "name": "フジクラ",
@@ -15401,6 +15846,7 @@
     "reward_pct": 9.6,
     "rr": 1.97
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9501",
    "name": "東京電力ホールディングス",
@@ -15470,6 +15916,7 @@
     "reward_pct": 10.3,
     "rr": 2.01
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6724",
    "name": "セイコーエプソン",
@@ -15539,6 +15986,7 @@
     "reward_pct": 8.7,
     "rr": 1.98
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5019",
    "name": "出光興産",
@@ -15610,6 +16058,7 @@
     "reward_pct": 19.3,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6963",
    "name": "ローム",
@@ -15679,6 +16128,7 @@
     "reward_pct": 10.0,
     "rr": 2.0
    },
+   "caution_flags": [],
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "2802",
    "name": "味の素",
