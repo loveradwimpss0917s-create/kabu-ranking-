@@ -156,6 +156,51 @@ def clamp(x, lo, hi):
     return max(lo, min(hi, x))
 
 
+def round_tick(x, price):
+    """呼び値の刻みに丸める（概算。TOPIX100等の細かい刻みは未対応）"""
+    if price < 100:
+        tick = 0.1
+    elif price < 1000:
+        tick = 0.5
+    elif price < 5000:
+        tick = 1.0
+    elif price < 30000:
+        tick = 5.0
+    else:
+        tick = 10.0
+    return round(round(x / tick) * tick, 1)
+
+
+def price_levels(price, atr_yen, ma25):
+    """購入目標・利確目標・損切りを ATR(14) から機械的に算出する（予測ではなく目安）。
+
+    - 購入目標 E = 現在値 − 0.5×ATR（押し目で拾う想定）
+    - 損切り   S = E − 1.0×ATR（終値がこの価格以下で確定したら撤退）
+    - 利確目標 T = E + 2.0×ATR。ただし25日線がその手前にあれば25日線を目標にする
+      （売られ過ぎの反発は、まず移動平均への回帰が現実的な到達点のため）
+    リスクリワード比は (T−E)/(E−S)。
+    """
+    if not atr_yen or atr_yen <= 0:
+        return None
+    entry = round_tick(price - 0.5 * atr_yen, price)
+    stop = round_tick(entry - 1.0 * atr_yen, price)
+    tp_raw = entry + 2.0 * atr_yen
+    if ma25 and entry < ma25 < tp_raw:
+        tp, basis = round_tick(ma25, price), "25日線（平均回帰）"
+    else:
+        tp, basis = round_tick(tp_raw, price), "ATR×2.0"
+    risk = entry - stop
+    reward = tp - entry
+    if risk <= 0 or reward <= 0:
+        return None
+    return {
+        "entry": entry, "take_profit": tp, "stop_loss": stop, "tp_basis": basis,
+        "risk_pct": round(risk / entry * 100, 1),
+        "reward_pct": round(reward / entry * 100, 1),
+        "rr": round(reward / risk, 2),
+    }
+
+
 def score_stock(bars, index_chg_today, index_closes):
     closes = [b["c"] for b in bars]
     vols = [b["v"] for b in bars]
@@ -305,6 +350,7 @@ def score_stock(bars, index_chg_today, index_closes):
         },
         "reasons": reasons[:4],
         "risks": risks[:3],
+        "levels": price_levels(last["c"], (atrp / 100 * last["c"]) if atrp else None, ma25),
         "invalid_if": "終値で直近安値を更新したら候補から外す",
     }
 

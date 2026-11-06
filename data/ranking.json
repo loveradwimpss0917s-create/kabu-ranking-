@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T12:20:31+09:00",
+ "generated_at": "2026-11-06T12:42:26+09:00",
  "market": {
   "index_name": "日経平均",
   "index_value": 57858.609375,
@@ -70,6 +70,15 @@
     "当日レンジの上部で引け"
    ],
    "risks": [],
+   "levels": {
+    "entry": 2035.0,
+    "take_profit": 2191.0,
+    "stop_loss": 1957.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.8,
+    "reward_pct": 7.7,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8697",
    "name": "日本取引所グループ",
@@ -131,6 +140,15 @@
     "当日レンジの上部で引け"
    ],
    "risks": [],
+   "levels": {
+    "entry": 1549.0,
+    "take_profit": 1660.0,
+    "stop_loss": 1494.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.6,
+    "reward_pct": 7.2,
+    "rr": 2.02
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8309",
    "name": "三井住友トラストグループ",
@@ -192,6 +210,15 @@
     "下ヒゲあり（安値で買い）"
    ],
    "risks": [],
+   "levels": {
+    "entry": 2930.0,
+    "take_profit": 3134.0,
+    "stop_loss": 2828.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.5,
+    "reward_pct": 7.0,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8304",
    "name": "あおぞら銀行",
@@ -255,6 +282,15 @@
    "risks": [
     "6か月高値から-36%（中期トレンド崩壊圏）"
    ],
+   "levels": {
+    "entry": 5295.0,
+    "take_profit": 5760.0,
+    "stop_loss": 5060.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.4,
+    "reward_pct": 8.8,
+    "rr": 1.98
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6954",
    "name": "ファナック",
@@ -316,6 +352,15 @@
     "当日レンジの上部で引け"
    ],
    "risks": [],
+   "levels": {
+    "entry": 3189.0,
+    "take_profit": 3437.0,
+    "stop_loss": 3065.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.9,
+    "reward_pct": 7.8,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8306",
    "name": "三菱UFJフィナンシャル・グループ",
@@ -376,6 +421,15 @@
     "20日の下げに対して直近5日の下げが鈍化"
    ],
    "risks": [],
+   "levels": {
+    "entry": 4041.0,
+    "take_profit": 4312.0,
+    "stop_loss": 3841.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 4.9,
+    "reward_pct": 6.7,
+    "rr": 1.35
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9697",
    "name": "カプコン",
@@ -437,6 +491,15 @@
     "20日の下げに対して直近5日の下げが鈍化"
    ],
    "risks": [],
+   "levels": {
+    "entry": 2561.0,
+    "take_profit": 2654.0,
+    "stop_loss": 2488.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 2.9,
+    "reward_pct": 3.6,
+    "rr": 1.27
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6326",
    "name": "クボタ",
@@ -498,6 +561,15 @@
     "当日レンジの上部で引け"
    ],
    "risks": [],
+   "levels": {
+    "entry": 2066.0,
+    "take_profit": 2260.0,
+    "stop_loss": 1969.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.7,
+    "reward_pct": 9.4,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8308",
    "name": "りそなホールディングス",
@@ -558,6 +630,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 16800.0,
+    "take_profit": 18085.0,
+    "stop_loss": 16085.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 4.3,
+    "reward_pct": 7.6,
+    "rr": 1.8
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6098",
    "name": "リクルートホールディングス",
@@ -618,6 +699,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 531.0,
+    "take_profit": 561.5,
+    "stop_loss": 515.5,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.9,
+    "reward_pct": 5.7,
+    "rr": 1.97
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4689",
    "name": "LINEヤフー",
@@ -678,6 +768,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 1774.0,
+    "take_profit": 1861.0,
+    "stop_loss": 1714.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 3.4,
+    "reward_pct": 4.9,
+    "rr": 1.45
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "2413",
    "name": "エムスリー",
@@ -738,6 +837,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 234.0,
+    "take_profit": 240.0,
+    "stop_loss": 228.5,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 2.4,
+    "reward_pct": 2.6,
+    "rr": 1.09
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9434",
    "name": "ソフトバンク",
@@ -799,6 +907,15 @@
     "20日の下げに対して直近5日の下げが鈍化"
    ],
    "risks": [],
+   "levels": {
+    "entry": 2264.0,
+    "take_profit": 2482.0,
+    "stop_loss": 2155.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.8,
+    "reward_pct": 9.6,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7013",
    "name": "IHI",
@@ -859,6 +976,15 @@
     "当日レンジの上部で引け"
    ],
    "risks": [],
+   "levels": {
+    "entry": 2959.0,
+    "take_profit": 3192.0,
+    "stop_loss": 2842.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.0,
+    "reward_pct": 7.9,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8316",
    "name": "三井住友フィナンシャルグループ",
@@ -920,6 +1046,15 @@
     "当日レンジの上部で引け"
    ],
    "risks": [],
+   "levels": {
+    "entry": 2854.0,
+    "take_profit": 3105.0,
+    "stop_loss": 2728.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.4,
+    "reward_pct": 8.8,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5831",
    "name": "しずおかフィナンシャルグループ",
@@ -979,6 +1114,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 4624.0,
+    "take_profit": 4743.0,
+    "stop_loss": 4502.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 2.6,
+    "reward_pct": 2.6,
+    "rr": 0.98
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7751",
    "name": "キヤノン",
@@ -1040,6 +1184,15 @@
     "当日レンジの上部で引け"
    ],
    "risks": [],
+   "levels": {
+    "entry": 6350.0,
+    "take_profit": 6890.0,
+    "stop_loss": 6080.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.3,
+    "reward_pct": 8.5,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8354",
    "name": "ふくおかフィナンシャルグループ",
@@ -1100,6 +1253,15 @@
     "下ヒゲあり（安値で買い）"
    ],
    "risks": [],
+   "levels": {
+    "entry": 5450.0,
+    "take_profit": 5760.0,
+    "stop_loss": 5295.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.8,
+    "reward_pct": 5.7,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9147",
    "name": "NIPPONEXPRESSホールディングス",
@@ -1161,6 +1323,15 @@
     "当日レンジの上部で引け"
    ],
    "risks": [],
+   "levels": {
+    "entry": 325.0,
+    "take_profit": 352.0,
+    "stop_loss": 311.5,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.2,
+    "reward_pct": 8.3,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6472",
    "name": "NTN",
@@ -1222,6 +1393,15 @@
     "当日レンジの上部で引け"
    ],
    "risks": [],
+   "levels": {
+    "entry": 5265.0,
+    "take_profit": 5600.0,
+    "stop_loss": 5100.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.1,
+    "reward_pct": 6.4,
+    "rr": 2.03
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4063",
    "name": "信越化学工業",
@@ -1283,6 +1463,15 @@
    "risks": [
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 157.5,
+    "take_profit": 166.0,
+    "stop_loss": 153.5,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.5,
+    "reward_pct": 5.4,
+    "rr": 2.12
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9432",
    "name": "NTT",
@@ -1343,6 +1532,15 @@
     "20日の下げに対して直近5日の下げが鈍化"
    ],
    "risks": [],
+   "levels": {
+    "entry": 1168.0,
+    "take_profit": 1217.0,
+    "stop_loss": 1138.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 2.6,
+    "reward_pct": 4.2,
+    "rr": 1.63
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "3402",
    "name": "東レ",
@@ -1403,6 +1601,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 1647.0,
+    "take_profit": 1752.0,
+    "stop_loss": 1595.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.2,
+    "reward_pct": 6.4,
+    "rr": 2.02
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7752",
    "name": "リコー",
@@ -1463,6 +1670,15 @@
     "当日レンジの上部で引け"
    ],
    "risks": [],
+   "levels": {
+    "entry": 3105.0,
+    "take_profit": 3264.0,
+    "stop_loss": 3026.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.5,
+    "reward_pct": 5.1,
+    "rr": 2.01
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4208",
    "name": "UBE",
@@ -1524,6 +1740,15 @@
     "当日レンジの上部で引け"
    ],
    "risks": [],
+   "levels": {
+    "entry": 1547.0,
+    "take_profit": 1681.0,
+    "stop_loss": 1480.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.3,
+    "reward_pct": 8.7,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7186",
    "name": "横浜フィナンシャルグループ",
@@ -1583,6 +1808,15 @@
     "下ヒゲあり（安値で買い）"
    ],
    "risks": [],
+   "levels": {
+    "entry": 1728.0,
+    "take_profit": 1737.0,
+    "stop_loss": 1693.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 2.0,
+    "reward_pct": 0.5,
+    "rr": 0.26
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5411",
    "name": "JFEホールディングス",
@@ -1642,6 +1876,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 1733.0,
+    "take_profit": 1794.0,
+    "stop_loss": 1688.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 2.6,
+    "reward_pct": 3.5,
+    "rr": 1.36
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7272",
    "name": "ヤマハ発動機",
@@ -1701,6 +1944,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 1142.0,
+    "take_profit": 1172.0,
+    "stop_loss": 1104.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 3.3,
+    "reward_pct": 2.6,
+    "rr": 0.79
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "3092",
    "name": "ZOZO",
@@ -1764,6 +2016,15 @@
    "risks": [
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 1912.0,
+    "take_profit": 1988.0,
+    "stop_loss": 1874.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.0,
+    "reward_pct": 4.0,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5406",
    "name": "神戸製鋼所",
@@ -1827,6 +2088,15 @@
    "risks": [
     "6か月高値から-39%（中期トレンド崩壊圏）"
    ],
+   "levels": {
+    "entry": 2689.0,
+    "take_profit": 2950.0,
+    "stop_loss": 2559.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.8,
+    "reward_pct": 9.7,
+    "rr": 2.01
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4061",
    "name": "デンカ",
@@ -1887,6 +2157,15 @@
     "当日レンジの上部で引け"
    ],
    "risks": [],
+   "levels": {
+    "entry": 4382.0,
+    "take_profit": 4792.0,
+    "stop_loss": 4177.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.7,
+    "reward_pct": 9.4,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6503",
    "name": "三菱電機",
@@ -1947,6 +2226,15 @@
     "当日レンジの上部で引け"
    ],
    "risks": [],
+   "levels": {
+    "entry": 1780.0,
+    "take_profit": 1955.0,
+    "stop_loss": 1692.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.9,
+    "reward_pct": 9.8,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6770",
    "name": "アルプスアルパイン",
@@ -2005,6 +2293,15 @@
     "RSI 42（売られ過ぎ圏）"
    ],
    "risks": [],
+   "levels": {
+    "entry": 2788.0,
+    "take_profit": 2878.0,
+    "stop_loss": 2722.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 2.4,
+    "reward_pct": 3.2,
+    "rr": 1.36
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9433",
    "name": "KDDI",
@@ -2064,6 +2361,15 @@
     "出来高 2.0倍で下げ止まり"
    ],
    "risks": [],
+   "levels": {
+    "entry": 21275.0,
+    "take_profit": 22130.0,
+    "stop_loss": 20845.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.0,
+    "reward_pct": 4.0,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6367",
    "name": "ダイキン工業",
@@ -2122,6 +2428,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 4200.0,
+    "take_profit": 4267.0,
+    "stop_loss": 4099.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 2.4,
+    "reward_pct": 1.6,
+    "rr": 0.66
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "2269",
    "name": "明治ホールディングス",
@@ -2182,6 +2497,15 @@
     "出来高 1.6倍で下げ止まり"
    ],
    "risks": [],
+   "levels": {
+    "entry": 4112.0,
+    "take_profit": 4372.0,
+    "stop_loss": 3982.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.2,
+    "reward_pct": 6.3,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6758",
    "name": "ソニーグループ",
@@ -2242,6 +2566,15 @@
     "当日レンジの上部で引け"
    ],
    "risks": [],
+   "levels": {
+    "entry": 7030.0,
+    "take_profit": 7705.0,
+    "stop_loss": 6690.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.8,
+    "reward_pct": 9.6,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8411",
    "name": "みずほフィナンシャルグループ",
@@ -2302,6 +2635,15 @@
     "当日レンジの上部で引け"
    ],
    "risks": [],
+   "levels": {
+    "entry": 7510.0,
+    "take_profit": 8345.0,
+    "stop_loss": 7090.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 5.6,
+    "reward_pct": 11.1,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5713",
    "name": "住友金属鉱山",
@@ -2361,6 +2703,15 @@
     "25日線乖離 -4.2%"
    ],
    "risks": [],
+   "levels": {
+    "entry": 1924.0,
+    "take_profit": 2042.0,
+    "stop_loss": 1863.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 3.2,
+    "reward_pct": 6.1,
+    "rr": 1.93
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "2282",
    "name": "日本ハム",
@@ -2419,6 +2770,15 @@
     "RSI 40（売られ過ぎ圏）"
    ],
    "risks": [],
+   "levels": {
+    "entry": 4854.0,
+    "take_profit": 5072.0,
+    "stop_loss": 4710.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 3.0,
+    "reward_pct": 4.5,
+    "rr": 1.51
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8725",
    "name": "MS&ADインシュアランスグループホールディングス",
@@ -2479,6 +2839,15 @@
    "risks": [
     "指数より2.3pt弱い"
    ],
+   "levels": {
+    "entry": 8065.0,
+    "take_profit": 8275.0,
+    "stop_loss": 7770.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 3.7,
+    "reward_pct": 2.6,
+    "rr": 0.71
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7974",
    "name": "任天堂",
@@ -2537,6 +2906,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 1039.0,
+    "take_profit": 1180.0,
+    "stop_loss": 968.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 6.8,
+    "reward_pct": 13.6,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "3697",
    "name": "SHIFT",
@@ -2599,6 +2977,15 @@
    "risks": [
     "6か月高値から-43%（中期トレンド崩壊圏）"
    ],
+   "levels": {
+    "entry": 5200.0,
+    "take_profit": 5595.0,
+    "stop_loss": 5000.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.8,
+    "reward_pct": 7.6,
+    "rr": 1.98
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5332",
    "name": "TOTO",
@@ -2659,6 +3046,15 @@
     "下ヒゲあり（安値で買い）"
    ],
    "risks": [],
+   "levels": {
+    "entry": 1559.0,
+    "take_profit": 1693.0,
+    "stop_loss": 1492.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.3,
+    "reward_pct": 8.6,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7731",
    "name": "ニコン",
@@ -2717,6 +3113,15 @@
     "指数より+3.4pt強い（下げ耐性）"
    ],
    "risks": [],
+   "levels": {
+    "entry": 1869.0,
+    "take_profit": 1954.0,
+    "stop_loss": 1826.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.3,
+    "reward_pct": 4.5,
+    "rr": 1.98
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6902",
    "name": "デンソー",
@@ -2775,6 +3180,15 @@
     "RSI 39（売られ過ぎ圏）"
    ],
    "risks": [],
+   "levels": {
+    "entry": 11510.0,
+    "take_profit": 11965.0,
+    "stop_loss": 11110.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 3.5,
+    "reward_pct": 4.0,
+    "rr": 1.14
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4578",
    "name": "大塚ホールディングス",
@@ -2836,6 +3250,15 @@
    "risks": [
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 2520.0,
+    "take_profit": 2669.0,
+    "stop_loss": 2445.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.0,
+    "reward_pct": 5.9,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9503",
    "name": "関西電力",
@@ -2894,6 +3317,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 76890.0,
+    "take_profit": 82000.0,
+    "stop_loss": 74330.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.3,
+    "reward_pct": 6.6,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9983",
    "name": "ファーストリテイリング",
@@ -2956,6 +3388,15 @@
    "risks": [
     "指数より2.1pt弱い"
    ],
+   "levels": {
+    "entry": 21795.0,
+    "take_profit": 23840.0,
+    "stop_loss": 20770.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.7,
+    "reward_pct": 9.4,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7741",
    "name": "HOYA",
@@ -3014,6 +3455,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 6550.0,
+    "take_profit": 6585.0,
+    "stop_loss": 6385.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 2.5,
+    "reward_pct": 0.5,
+    "rr": 0.21
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9735",
    "name": "セコム",
@@ -3073,6 +3523,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 3786.0,
+    "take_profit": 3966.0,
+    "stop_loss": 3696.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.4,
+    "reward_pct": 4.8,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4452",
    "name": "花王",
@@ -3134,6 +3593,15 @@
    "risks": [
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 6455.0,
+    "take_profit": 6905.0,
+    "stop_loss": 6230.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.5,
+    "reward_pct": 7.0,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9101",
    "name": "日本郵船",
@@ -3195,6 +3663,15 @@
    "risks": [
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 6385.0,
+    "take_profit": 6900.0,
+    "stop_loss": 6130.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.0,
+    "reward_pct": 8.1,
+    "rr": 2.02
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9104",
    "name": "商船三井",
@@ -3254,6 +3731,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 2170.0,
+    "take_profit": 2267.0,
+    "stop_loss": 2121.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.3,
+    "reward_pct": 4.5,
+    "rr": 1.98
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "3382",
    "name": "セブン&アイ・ホールディングス",
@@ -3312,6 +3798,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 562.5,
+    "take_profit": 600.5,
+    "stop_loss": 543.5,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.4,
+    "reward_pct": 6.8,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8766",
    "name": "東京海上ホールディングス",
@@ -3374,6 +3869,15 @@
    "risks": [
     "6か月高値から-43%（中期トレンド崩壊圏）"
    ],
+   "levels": {
+    "entry": 10350.0,
+    "take_profit": 11085.0,
+    "stop_loss": 9985.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.5,
+    "reward_pct": 7.1,
+    "rr": 2.01
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "1801",
    "name": "大成建設",
@@ -3435,6 +3939,15 @@
     "当日レンジの上部で引け"
    ],
    "risks": [],
+   "levels": {
+    "entry": 916.5,
+    "take_profit": 985.0,
+    "stop_loss": 882.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.8,
+    "reward_pct": 7.5,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6471",
    "name": "日本精工",
@@ -3493,6 +4006,15 @@
     "RSI 44（売られ過ぎ圏）"
    ],
    "risks": [],
+   "levels": {
+    "entry": 1266.0,
+    "take_profit": 1275.0,
+    "stop_loss": 1233.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 2.6,
+    "reward_pct": 0.7,
+    "rr": 0.27
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4751",
    "name": "サイバーエージェント",
@@ -3549,6 +4071,15 @@
    },
    "reasons": [],
    "risks": [],
+   "levels": {
+    "entry": 1126.0,
+    "take_profit": 1187.0,
+    "stop_loss": 1095.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.8,
+    "reward_pct": 5.4,
+    "rr": 1.97
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7261",
    "name": "マツダ",
@@ -3607,6 +4138,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 3265.0,
+    "take_profit": 3485.0,
+    "stop_loss": 3155.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.4,
+    "reward_pct": 6.7,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9843",
    "name": "ニトリホールディングス",
@@ -3666,6 +4206,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 2627.0,
+    "take_profit": 2733.0,
+    "stop_loss": 2574.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.0,
+    "reward_pct": 4.0,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "2432",
    "name": "ディー・エヌ・エー",
@@ -3727,6 +4276,15 @@
    "risks": [
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 3319.0,
+    "take_profit": 3590.0,
+    "stop_loss": 3183.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.1,
+    "reward_pct": 8.2,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "1605",
    "name": "INPEX",
@@ -3785,6 +4343,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 6330.0,
+    "take_profit": 6850.0,
+    "stop_loss": 6070.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.1,
+    "reward_pct": 8.2,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7832",
    "name": "バンダイナムコホールディングス",
@@ -3843,6 +4410,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 2217.0,
+    "take_profit": 2264.0,
+    "stop_loss": 2149.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 3.1,
+    "reward_pct": 2.1,
+    "rr": 0.69
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8001",
    "name": "伊藤忠商事",
@@ -3901,6 +4477,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 3534.0,
+    "take_profit": 3752.0,
+    "stop_loss": 3425.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.1,
+    "reward_pct": 6.2,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4661",
    "name": "オリエンタルランド",
@@ -3963,6 +4548,15 @@
    "risks": [
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 6410.0,
+    "take_profit": 7110.0,
+    "stop_loss": 6060.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 5.5,
+    "reward_pct": 10.9,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4704",
    "name": "トレンドマイクロ",
@@ -4022,6 +4616,15 @@
     "出来高 1.4倍で下げ止まり"
    ],
    "risks": [],
+   "levels": {
+    "entry": 654.0,
+    "take_profit": 679.0,
+    "stop_loss": 641.5,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 1.9,
+    "reward_pct": 3.8,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5401",
    "name": "日本製鉄",
@@ -4084,6 +4687,15 @@
    "risks": [
     "指数より2.8pt弱い"
    ],
+   "levels": {
+    "entry": 2307.0,
+    "take_profit": 2529.0,
+    "stop_loss": 2196.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.8,
+    "reward_pct": 9.6,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8331",
    "name": "千葉銀行",
@@ -4143,6 +4755,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 3160.0,
+    "take_profit": 3312.0,
+    "stop_loss": 3084.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.4,
+    "reward_pct": 4.8,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9021",
    "name": "西日本旅客鉄道",
@@ -4202,6 +4823,15 @@
     "当日レンジの上部で引け"
    ],
    "risks": [],
+   "levels": {
+    "entry": 67410.0,
+    "take_profit": 73580.0,
+    "stop_loss": 64320.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.6,
+    "reward_pct": 9.2,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6861",
    "name": "キーエンス",
@@ -4260,6 +4890,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 4691.0,
+    "take_profit": 5067.0,
+    "stop_loss": 4503.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.0,
+    "reward_pct": 8.0,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7453",
    "name": "良品計画",
@@ -4322,6 +4961,15 @@
    "risks": [
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 5385.0,
+    "take_profit": 5695.0,
+    "stop_loss": 5230.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.9,
+    "reward_pct": 5.8,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8591",
    "name": "オリックス",
@@ -4383,6 +5031,15 @@
    "risks": [
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 2927.0,
+    "take_profit": 3165.0,
+    "stop_loss": 2808.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.1,
+    "reward_pct": 8.1,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9107",
    "name": "川崎汽船",
@@ -4441,6 +5098,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 2161.0,
+    "take_profit": 2277.0,
+    "stop_loss": 2103.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.7,
+    "reward_pct": 5.4,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7269",
    "name": "スズキ",
@@ -4499,6 +5165,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 2774.0,
+    "take_profit": 2939.0,
+    "stop_loss": 2691.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.0,
+    "reward_pct": 5.9,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "3659",
    "name": "ネクソン",
@@ -4557,6 +5232,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 4209.0,
+    "take_profit": 4472.0,
+    "stop_loss": 4078.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.1,
+    "reward_pct": 6.2,
+    "rr": 2.01
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5233",
    "name": "太平洋セメント",
@@ -4616,6 +5300,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 4078.0,
+    "take_profit": 4261.0,
+    "stop_loss": 3986.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.3,
+    "reward_pct": 4.5,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5108",
    "name": "ブリヂストン",
@@ -4679,6 +5372,15 @@
     "6か月高値から-44%（中期トレンド崩壊圏）",
     "ATR 10.0%（値動きが荒い）"
    ],
+   "levels": {
+    "entry": 30820.0,
+    "take_profit": 37310.0,
+    "stop_loss": 27570.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 10.5,
+    "reward_pct": 21.1,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6920",
    "name": "レーザーテック",
@@ -4737,6 +5439,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 3276.0,
+    "take_profit": 3447.0,
+    "stop_loss": 3191.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.6,
+    "reward_pct": 5.2,
+    "rr": 2.01
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9201",
    "name": "日本航空",
@@ -4798,6 +5509,15 @@
    "risks": [
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 3250.0,
+    "take_profit": 3406.0,
+    "stop_loss": 3172.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.4,
+    "reward_pct": 4.8,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4901",
    "name": "富士フイルムホールディングス",
@@ -4854,6 +5574,15 @@
    },
    "reasons": [],
    "risks": [],
+   "levels": {
+    "entry": 2081.0,
+    "take_profit": 2098.0,
+    "stop_loss": 2026.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 2.6,
+    "reward_pct": 0.8,
+    "rr": 0.31
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7202",
    "name": "いすゞ自動車",
@@ -4917,6 +5646,15 @@
     "25日線乖離 -16.4%（下げ過ぎ）",
     "直近の急変あり（2026-11-04 に -10.3%）―決算等の材料か要確認"
    ],
+   "levels": {
+    "entry": 1690.0,
+    "take_profit": 1837.0,
+    "stop_loss": 1616.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.4,
+    "reward_pct": 8.7,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4183",
    "name": "三井化学",
@@ -4975,6 +5713,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 1840.0,
+    "take_profit": 1842.0,
+    "stop_loss": 1798.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 2.3,
+    "reward_pct": 0.1,
+    "rr": 0.05
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "3405",
    "name": "クラレ",
@@ -5038,6 +5785,15 @@
     "ATR 10.3%（値動きが荒い）",
     "直近の急変あり（2026-11-05 に -14.7%）―決算等の材料か要確認"
    ],
+   "levels": {
+    "entry": 26695.0,
+    "take_profit": 32465.0,
+    "stop_loss": 23810.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 10.8,
+    "reward_pct": 21.6,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6857",
    "name": "アドバンテスト",
@@ -5097,6 +5853,15 @@
     "下ヒゲあり（安値で買い）"
    ],
    "risks": [],
+   "levels": {
+    "entry": 3523.0,
+    "take_profit": 3615.0,
+    "stop_loss": 3357.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 4.7,
+    "reward_pct": 2.6,
+    "rr": 0.55
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4385",
    "name": "メルカリ",
@@ -5155,6 +5920,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 6450.0,
+    "take_profit": 6805.0,
+    "stop_loss": 6270.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.8,
+    "reward_pct": 5.5,
+    "rr": 1.97
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4502",
    "name": "武田薬品工業",
@@ -5213,6 +5987,15 @@
     "指数より+2.7pt強い（下げ耐性）"
    ],
    "risks": [],
+   "levels": {
+    "entry": 821.5,
+    "take_profit": 830.5,
+    "stop_loss": 807.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 1.8,
+    "reward_pct": 1.1,
+    "rr": 0.62
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "3861",
    "name": "王子ホールディングス",
@@ -5272,6 +6055,15 @@
     "25日線乖離 -9.3%"
    ],
    "risks": [],
+   "levels": {
+    "entry": 523.5,
+    "take_profit": 566.0,
+    "stop_loss": 502.5,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.0,
+    "reward_pct": 8.1,
+    "rr": 2.02
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6753",
    "name": "シャープ",
@@ -5330,6 +6122,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 3862.0,
+    "take_profit": 4089.0,
+    "stop_loss": 3748.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.0,
+    "reward_pct": 5.9,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4324",
    "name": "電通グループ",
@@ -5391,6 +6192,15 @@
    "risks": [
     "直近の急変あり（2026-11-05 に +11.6%）―決算等の材料か要確認"
    ],
+   "levels": {
+    "entry": 6620.0,
+    "take_profit": 6880.0,
+    "stop_loss": 6360.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 3.9,
+    "reward_pct": 3.9,
+    "rr": 1.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5101",
    "name": "横浜ゴム",
@@ -5449,6 +6259,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 2138.0,
+    "take_profit": 2240.0,
+    "stop_loss": 2087.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.4,
+    "reward_pct": 4.8,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "2871",
    "name": "ニチレイ",
@@ -5507,6 +6326,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 1812.0,
+    "take_profit": 1905.0,
+    "stop_loss": 1765.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.6,
+    "reward_pct": 5.1,
+    "rr": 1.98
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7267",
    "name": "本田技研工業",
@@ -5565,6 +6393,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 2281.0,
+    "take_profit": 2384.0,
+    "stop_loss": 2230.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.2,
+    "reward_pct": 4.5,
+    "rr": 2.02
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "1925",
    "name": "大和ハウス工業",
@@ -5623,6 +6460,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 5735.0,
+    "take_profit": 5785.0,
+    "stop_loss": 5490.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 4.3,
+    "reward_pct": 0.9,
+    "rr": 0.2
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4307",
    "name": "野村総合研究所",
@@ -5685,6 +6531,15 @@
    "risks": [
     "6か月高値から-36%（中期トレンド崩壊圏）"
    ],
+   "levels": {
+    "entry": 7350.0,
+    "take_profit": 7895.0,
+    "stop_loss": 7075.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.7,
+    "reward_pct": 7.4,
+    "rr": 1.98
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5714",
    "name": "DOWAホールディングス",
@@ -5748,6 +6603,15 @@
     "指数より2.9pt弱い",
     "6か月高値から-36%（中期トレンド崩壊圏）"
    ],
+   "levels": {
+    "entry": 4476.0,
+    "take_profit": 4946.0,
+    "stop_loss": 4241.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 5.3,
+    "reward_pct": 10.5,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5214",
    "name": "日本電気硝子",
@@ -5807,6 +6671,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 3204.0,
+    "take_profit": 3341.0,
+    "stop_loss": 3135.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.2,
+    "reward_pct": 4.3,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9202",
    "name": "ANAホールディングス",
@@ -5865,6 +6738,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 3837.0,
+    "take_profit": 4110.0,
+    "stop_loss": 3700.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.6,
+    "reward_pct": 7.1,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4911",
    "name": "資生堂",
@@ -5927,6 +6809,15 @@
     "指数より2.8pt弱い",
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 3227.0,
+    "take_profit": 3458.0,
+    "stop_loss": 3111.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.6,
+    "reward_pct": 7.2,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6988",
    "name": "日東電工",
@@ -5985,6 +6876,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 1409.0,
+    "take_profit": 1468.0,
+    "stop_loss": 1380.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.1,
+    "reward_pct": 4.2,
+    "rr": 2.03
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9009",
    "name": "京成電鉄",
@@ -6043,6 +6943,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 1778.0,
+    "take_profit": 1784.0,
+    "stop_loss": 1715.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 3.5,
+    "reward_pct": 0.3,
+    "rr": 0.1
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "2801",
    "name": "キッコーマン",
@@ -6105,6 +7014,15 @@
    "risks": [
     "25日線乖離 -23.4%（下げ過ぎ）"
    ],
+   "levels": {
+    "entry": 1519.0,
+    "take_profit": 1720.0,
+    "stop_loss": 1418.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 6.6,
+    "reward_pct": 13.2,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5301",
    "name": "東海カーボン",
@@ -6167,6 +7085,15 @@
     "RSI 11（落下中、反転未確認）",
     "6か月高値から-42%（中期トレンド崩壊圏）"
    ],
+   "levels": {
+    "entry": 1935.0,
+    "take_profit": 2083.0,
+    "stop_loss": 1861.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.8,
+    "reward_pct": 7.6,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7012",
    "name": "川崎重工業",
@@ -6228,6 +7155,15 @@
    "risks": [
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 1694.0,
+    "take_profit": 1796.0,
+    "stop_loss": 1643.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.0,
+    "reward_pct": 6.0,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8750",
    "name": "第一ライフグループ",
@@ -6292,6 +7228,15 @@
     "6か月高値から-46%（中期トレンド崩壊圏）",
     "ATR 7.6%（値動きが荒い）"
    ],
+   "levels": {
+    "entry": 8150.0,
+    "take_profit": 9435.0,
+    "stop_loss": 7510.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 7.9,
+    "reward_pct": 15.8,
+    "rr": 2.01
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8035",
    "name": "東京エレクトロン",
@@ -6354,6 +7299,15 @@
    "risks": [
     "6か月高値から-37%（中期トレンド崩壊圏）"
    ],
+   "levels": {
+    "entry": 3469.0,
+    "take_profit": 3793.0,
+    "stop_loss": 3307.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.7,
+    "reward_pct": 9.3,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4043",
    "name": "トクヤマ",
@@ -6414,6 +7368,15 @@
    "risks": [
     "直近の急変あり（2026-11-05 に +10.9%）―決算等の材料か要確認"
    ],
+   "levels": {
+    "entry": 2465.0,
+    "take_profit": 2628.0,
+    "stop_loss": 2384.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.3,
+    "reward_pct": 6.6,
+    "rr": 2.01
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4543",
    "name": "テルモ",
@@ -6472,6 +7435,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 11320.0,
+    "take_profit": 12475.0,
+    "stop_loss": 10745.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 5.1,
+    "reward_pct": 10.2,
+    "rr": 2.01
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6532",
    "name": "ベイカレント",
@@ -6532,6 +7504,15 @@
    "risks": [
     "直近の急変あり（2026-11-05 に +16.7%）―決算等の材料か要確認"
    ],
+   "levels": {
+    "entry": 3266.0,
+    "take_profit": 3477.0,
+    "stop_loss": 3160.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.2,
+    "reward_pct": 6.5,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7203",
    "name": "トヨタ自動車",
@@ -6590,6 +7571,15 @@
     "RSI 45（売られ過ぎ圏）"
    ],
    "risks": [],
+   "levels": {
+    "entry": 1077.0,
+    "take_profit": 1101.0,
+    "stop_loss": 1054.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 2.1,
+    "reward_pct": 2.2,
+    "rr": 1.04
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "1332",
    "name": "ニッスイ",
@@ -6648,6 +7638,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 2439.0,
+    "take_profit": 2604.0,
+    "stop_loss": 2356.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.4,
+    "reward_pct": 6.8,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4503",
    "name": "アステラス製薬",
@@ -6708,6 +7707,15 @@
    "risks": [
     "直近の急変あり（2026-11-05 に +10.9%）―決算等の材料か要確認"
    ],
+   "levels": {
+    "entry": 26725.0,
+    "take_profit": 29430.0,
+    "stop_loss": 25370.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 5.1,
+    "reward_pct": 10.1,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9766",
    "name": "コナミグループ",
@@ -6768,6 +7776,15 @@
    "risks": [
     "直近の急変あり（2026-11-05 に +13.3%）―決算等の材料か要確認"
    ],
+   "levels": {
+    "entry": 357.0,
+    "take_profit": 380.0,
+    "stop_loss": 345.5,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.2,
+    "reward_pct": 6.4,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7211",
    "name": "三菱自動車工業",
@@ -6826,6 +7843,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 1702.0,
+    "take_profit": 1787.0,
+    "stop_loss": 1660.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.5,
+    "reward_pct": 5.0,
+    "rr": 2.02
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "2502",
    "name": "アサヒグループホールディングス",
@@ -6888,6 +7914,15 @@
    "risks": [
     "指数より2.3pt弱い"
    ],
+   "levels": {
+    "entry": 4768.0,
+    "take_profit": 5117.0,
+    "stop_loss": 4594.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.6,
+    "reward_pct": 7.3,
+    "rr": 2.01
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6305",
    "name": "日立建機",
@@ -6948,6 +7983,15 @@
    "risks": [
     "指数より2.3pt弱い"
    ],
+   "levels": {
+    "entry": 4807.0,
+    "take_profit": 4897.0,
+    "stop_loss": 4663.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 3.0,
+    "reward_pct": 1.9,
+    "rr": 0.62
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4523",
    "name": "エーザイ",
@@ -7009,6 +8053,15 @@
     "RSI 11（落下中、反転未確認）",
     "25日線乖離 -16.8%（下げ過ぎ）"
    ],
+   "levels": {
+    "entry": 4449.0,
+    "take_profit": 4910.0,
+    "stop_loss": 4218.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 5.2,
+    "reward_pct": 10.4,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6501",
    "name": "日立製作所",
@@ -7072,6 +8125,15 @@
     "指数より2.0pt弱い",
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 4680.0,
+    "take_profit": 5041.0,
+    "stop_loss": 4499.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.9,
+    "reward_pct": 7.7,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "2768",
    "name": "双日",
@@ -7133,6 +8195,15 @@
    "risks": [
     "指数より3.5pt弱い"
    ],
+   "levels": {
+    "entry": 4575.0,
+    "take_profit": 4880.0,
+    "stop_loss": 4403.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 3.8,
+    "reward_pct": 6.7,
+    "rr": 1.77
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8002",
    "name": "丸紅",
@@ -7191,6 +8262,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 1721.0,
+    "take_profit": 1873.0,
+    "stop_loss": 1645.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.4,
+    "reward_pct": 8.8,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9602",
    "name": "東宝",
@@ -7249,6 +8329,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 1596.0,
+    "take_profit": 1701.0,
+    "stop_loss": 1544.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.3,
+    "reward_pct": 6.6,
+    "rr": 2.02
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8801",
    "name": "三井不動産",
@@ -7307,6 +8396,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 1750.0,
+    "take_profit": 1827.0,
+    "stop_loss": 1712.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.2,
+    "reward_pct": 4.4,
+    "rr": 2.03
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9007",
    "name": "小田急電鉄",
@@ -7365,6 +8463,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 2957.0,
+    "take_profit": 3132.0,
+    "stop_loss": 2869.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.0,
+    "reward_pct": 5.9,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4507",
    "name": "塩野義製薬",
@@ -7421,6 +8528,15 @@
    },
    "reasons": [],
    "risks": [],
+   "levels": {
+    "entry": 1612.0,
+    "take_profit": 1679.0,
+    "stop_loss": 1579.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.0,
+    "reward_pct": 4.2,
+    "rr": 2.03
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9005",
    "name": "東急",
@@ -7479,6 +8595,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 6175.0,
+    "take_profit": 6225.0,
+    "stop_loss": 5995.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 2.9,
+    "reward_pct": 0.8,
+    "rr": 0.28
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9531",
    "name": "東京瓦斯",
@@ -7543,6 +8668,15 @@
     "25日線乖離 -15.5%（下げ過ぎ）",
     "6か月高値から-45%（中期トレンド崩壊圏）"
    ],
+   "levels": {
+    "entry": 4213.0,
+    "take_profit": 4778.0,
+    "stop_loss": 3930.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 6.7,
+    "reward_pct": 13.4,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5333",
    "name": "NGK",
@@ -7602,6 +8736,15 @@
     "20日の下げに対して直近5日の下げが鈍化"
    ],
    "risks": [],
+   "levels": {
+    "entry": 1721.0,
+    "take_profit": 1819.0,
+    "stop_loss": 1666.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 3.2,
+    "reward_pct": 5.7,
+    "rr": 1.78
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7733",
    "name": "オリンパス",
@@ -7658,6 +8801,15 @@
    },
    "reasons": [],
    "risks": [],
+   "levels": {
+    "entry": 1242.0,
+    "take_profit": 1320.0,
+    "stop_loss": 1203.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.1,
+    "reward_pct": 6.3,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8267",
    "name": "イオン",
@@ -7719,6 +8871,15 @@
    "risks": [
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 3949.0,
+    "take_profit": 4149.0,
+    "stop_loss": 3849.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.5,
+    "reward_pct": 5.1,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8253",
    "name": "クレディセゾン",
@@ -7777,6 +8938,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 3467.0,
+    "take_profit": 3646.0,
+    "stop_loss": 3377.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.6,
+    "reward_pct": 5.2,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "1928",
    "name": "積水ハウス",
@@ -7839,6 +9009,15 @@
     "25日線乖離 -17.8%（下げ過ぎ）",
     "直近の急変あり（2026-11-05 に -10.8%）―決算等の材料か要確認"
    ],
+   "levels": {
+    "entry": 3700.0,
+    "take_profit": 4140.0,
+    "stop_loss": 3480.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 5.9,
+    "reward_pct": 11.9,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6103",
    "name": "オークマ",
@@ -7897,6 +9076,15 @@
     "指数より+2.8pt強い（下げ耐性）"
    ],
    "risks": [],
+   "levels": {
+    "entry": 2820.0,
+    "take_profit": 2920.0,
+    "stop_loss": 2770.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 1.8,
+    "reward_pct": 3.5,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8252",
    "name": "丸井グループ",
@@ -7955,6 +9143,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 4127.0,
+    "take_profit": 4376.0,
+    "stop_loss": 4003.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.0,
+    "reward_pct": 6.0,
+    "rr": 2.01
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9022",
    "name": "東海旅客鉄道",
@@ -8011,6 +9208,15 @@
    },
    "reasons": [],
    "risks": [],
+   "levels": {
+    "entry": 621.0,
+    "take_profit": 639.0,
+    "stop_loss": 600.5,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 3.3,
+    "reward_pct": 2.9,
+    "rr": 0.88
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4755",
    "name": "楽天グループ",
@@ -8072,6 +9278,15 @@
    "risks": [
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 1620.0,
+    "take_profit": 1728.0,
+    "stop_loss": 1566.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.3,
+    "reward_pct": 6.7,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8601",
    "name": "大和証券グループ本社",
@@ -8132,6 +9347,15 @@
    "risks": [
     "指数より2.7pt弱い"
    ],
+   "levels": {
+    "entry": 6065.0,
+    "take_profit": 6690.0,
+    "stop_loss": 5755.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 5.1,
+    "reward_pct": 10.3,
+    "rr": 2.02
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8015",
    "name": "豊田通商",
@@ -8196,6 +9420,15 @@
     "6か月高値から-54%（中期トレンド崩壊圏）",
     "ATR 8.3%（値動きが荒い）"
    ],
+   "levels": {
+    "entry": 39310.0,
+    "take_profit": 46080.0,
+    "stop_loss": 35920.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 8.6,
+    "reward_pct": 17.2,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6146",
    "name": "ディスコ",
@@ -8259,6 +9492,15 @@
     "6か月高値から-51%（中期トレンド崩壊圏）",
     "ATR 8.0%（値動きが荒い）"
    ],
+   "levels": {
+    "entry": 2407.0,
+    "take_profit": 2810.0,
+    "stop_loss": 2206.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 8.4,
+    "reward_pct": 16.7,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6723",
    "name": "ルネサスエレクトロニクス",
@@ -8323,6 +9565,15 @@
     "6か月高値から-70%（中期トレンド崩壊圏）",
     "ATR 11.8%（値動きが荒い）"
    ],
+   "levels": {
+    "entry": 6380.0,
+    "take_profit": 7980.0,
+    "stop_loss": 5580.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 12.5,
+    "reward_pct": 25.1,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6976",
    "name": "太陽誘電",
@@ -8387,6 +9638,15 @@
     "6か月高値から-60%（中期トレンド崩壊圏）",
     "ATR 10.6%（値動きが荒い）"
    ],
+   "levels": {
+    "entry": 4653.0,
+    "take_profit": 5692.0,
+    "stop_loss": 4133.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 11.2,
+    "reward_pct": 22.3,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6981",
    "name": "村田製作所",
@@ -8445,6 +9705,15 @@
    "risks": [
     "直近の急変あり（2026-11-05 に +10.5%）―決算等の材料か要確認"
    ],
+   "levels": {
+    "entry": 273.0,
+    "take_profit": 276.5,
+    "stop_loss": 264.5,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 3.1,
+    "reward_pct": 1.3,
+    "rr": 0.41
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7201",
    "name": "日産自動車",
@@ -8504,6 +9773,15 @@
     "長い下ヒゲ（下ヒゲ比率69%）"
    ],
    "risks": [],
+   "levels": {
+    "entry": 1870.0,
+    "take_profit": 2043.0,
+    "stop_loss": 1783.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.7,
+    "reward_pct": 9.3,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7911",
    "name": "TOPPANホールディングス",
@@ -8562,6 +9840,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 2276.0,
+    "take_profit": 2417.0,
+    "stop_loss": 2206.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.1,
+    "reward_pct": 6.2,
+    "rr": 2.01
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "2002",
    "name": "日清製粉グループ本社",
@@ -8620,6 +9907,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 2178.0,
+    "take_profit": 2346.0,
+    "stop_loss": 2094.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.9,
+    "reward_pct": 7.7,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "2501",
    "name": "サッポロビール",
@@ -8681,6 +9977,15 @@
     "RSI 16（落下中、反転未確認）",
     "6か月高値から-42%（中期トレンド崩壊圏）"
    ],
+   "levels": {
+    "entry": 4677.0,
+    "take_profit": 5005.0,
+    "stop_loss": 4513.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.5,
+    "reward_pct": 7.0,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5201",
    "name": "AGC",
@@ -8741,6 +10046,15 @@
    "risks": [
     "指数より2.2pt弱い"
    ],
+   "levels": {
+    "entry": 1437.0,
+    "take_profit": 1480.0,
+    "stop_loss": 1388.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 3.4,
+    "reward_pct": 3.0,
+    "rr": 0.88
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8604",
    "name": "野村ホールディングス",
@@ -8797,6 +10111,15 @@
    },
    "reasons": [],
    "risks": [],
+   "levels": {
+    "entry": 6705.0,
+    "take_profit": 6865.0,
+    "stop_loss": 6505.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 3.0,
+    "reward_pct": 2.4,
+    "rr": 0.8
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8630",
    "name": "SOMPOホールディングス",
@@ -8855,6 +10178,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 2690.0,
+    "take_profit": 2828.0,
+    "stop_loss": 2621.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.6,
+    "reward_pct": 5.1,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7270",
    "name": "SUBARU",
@@ -8913,6 +10245,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 3775.0,
+    "take_profit": 4007.0,
+    "stop_loss": 3659.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.1,
+    "reward_pct": 6.1,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9020",
    "name": "東日本旅客鉄道",
@@ -8973,6 +10314,15 @@
    "risks": [
     "直近の急変あり（2026-11-04 に +11.5%）―決算等の材料か要確認"
    ],
+   "levels": {
+    "entry": 2210.0,
+    "take_profit": 2357.0,
+    "stop_loss": 2136.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.3,
+    "reward_pct": 6.7,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9064",
    "name": "ヤマトホールディングス",
@@ -9031,6 +10381,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 6620.0,
+    "take_profit": 7070.0,
+    "stop_loss": 6395.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.4,
+    "reward_pct": 6.8,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4519",
    "name": "中外製薬",
@@ -9094,6 +10453,15 @@
     "6か月高値から-37%（中期トレンド崩壊圏）",
     "ATR 7.0%（値動きが荒い）"
    ],
+   "levels": {
+    "entry": 10420.0,
+    "take_profit": 11940.0,
+    "stop_loss": 9660.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 7.3,
+    "reward_pct": 14.6,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6504",
    "name": "富士電機",
@@ -9152,6 +10520,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 2974.0,
+    "take_profit": 3137.0,
+    "stop_loss": 2892.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.8,
+    "reward_pct": 5.5,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "2503",
    "name": "キリンホールディングス",
@@ -9214,6 +10591,15 @@
     "指数より2.3pt弱い",
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 2215.0,
+    "take_profit": 2353.0,
+    "stop_loss": 2146.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.1,
+    "reward_pct": 6.2,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6178",
    "name": "日本郵政",
@@ -9276,6 +10662,15 @@
     "指数より2.3pt弱い",
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 1570.0,
+    "take_profit": 1703.0,
+    "stop_loss": 1504.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.2,
+    "reward_pct": 8.5,
+    "rr": 2.02
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8053",
    "name": "住友商事",
@@ -9332,6 +10727,15 @@
    },
    "reasons": [],
    "risks": [],
+   "levels": {
+    "entry": 756.5,
+    "take_profit": 759.0,
+    "stop_loss": 738.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 2.4,
+    "reward_pct": 0.3,
+    "rr": 0.14
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9008",
    "name": "京王電鉄",
@@ -9388,6 +10792,15 @@
    },
    "reasons": [],
    "risks": [],
+   "levels": {
+    "entry": 5525.0,
+    "take_profit": 5740.0,
+    "stop_loss": 5370.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 2.8,
+    "reward_pct": 3.9,
+    "rr": 1.39
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9532",
    "name": "大阪瓦斯",
@@ -9446,6 +10859,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 4825.0,
+    "take_profit": 5191.0,
+    "stop_loss": 4642.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.8,
+    "reward_pct": 7.6,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8058",
    "name": "三菱商事",
@@ -9502,6 +10924,15 @@
    },
    "reasons": [],
    "risks": [],
+   "levels": {
+    "entry": 2867.0,
+    "take_profit": 2986.0,
+    "stop_loss": 2808.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.1,
+    "reward_pct": 4.2,
+    "rr": 2.02
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9001",
    "name": "東武鉄道",
@@ -9564,6 +10995,15 @@
     "直近安値を更新して弱い引け（落ちるナイフ注意）",
     "6か月高値から-43%（中期トレンド崩壊圏）"
    ],
+   "levels": {
+    "entry": 1939.0,
+    "take_profit": 2050.0,
+    "stop_loss": 1881.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 3.0,
+    "reward_pct": 5.7,
+    "rr": 1.91
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "1803",
    "name": "清水建設",
@@ -9625,6 +11065,15 @@
    "risks": [
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 982.0,
+    "take_profit": 1074.0,
+    "stop_loss": 936.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.7,
+    "reward_pct": 9.4,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4188",
    "name": "三菱ケミカルグループ",
@@ -9687,6 +11136,15 @@
     "指数より2.9pt弱い",
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 4559.0,
+    "take_profit": 4808.0,
+    "stop_loss": 4411.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 3.2,
+    "reward_pct": 5.5,
+    "rr": 1.68
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8795",
    "name": "T&Dホールディングス",
@@ -9748,6 +11206,15 @@
    "risks": [
     "25日線乖離 -17.6%（下げ過ぎ）"
    ],
+   "levels": {
+    "entry": 53860.0,
+    "take_profit": 59830.0,
+    "stop_loss": 50870.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 5.6,
+    "reward_pct": 11.1,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6273",
    "name": "SMC",
@@ -9810,6 +11277,15 @@
     "指数より2.2pt弱い",
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 4402.0,
+    "take_profit": 4663.0,
+    "stop_loss": 4271.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.0,
+    "reward_pct": 5.9,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "1812",
    "name": "鹿島建設",
@@ -9872,6 +11348,15 @@
     "指数より2.4pt弱い",
     "25日線乖離 -16.7%（下げ過ぎ）"
    ],
+   "levels": {
+    "entry": 4594.0,
+    "take_profit": 5105.0,
+    "stop_loss": 4338.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 5.6,
+    "reward_pct": 11.1,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6302",
    "name": "住友重機械工業",
@@ -9936,6 +11421,15 @@
     "25日線乖離 -39.1%（下げ過ぎ）",
     "6か月高値から-59%（中期トレンド崩壊圏）"
    ],
+   "levels": {
+    "entry": 7440.0,
+    "take_profit": 9250.0,
+    "stop_loss": 6535.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 12.2,
+    "reward_pct": 24.3,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7735",
    "name": "SCREENホールディングス",
@@ -9999,6 +11493,15 @@
     "6か月高値から-45%（中期トレンド崩壊圏）",
     "ATR 11.9%（値動きが荒い）"
    ],
+   "levels": {
+    "entry": 10025.0,
+    "take_profit": 12555.0,
+    "stop_loss": 8760.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 12.6,
+    "reward_pct": 25.2,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4004",
    "name": "レゾナック・ホールディングス",
@@ -10062,6 +11565,15 @@
     "6か月高値から-52%（中期トレンド崩壊圏）",
     "ATR 14.2%（値動きが荒い）"
    ],
+   "levels": {
+    "entry": 5900.0,
+    "take_profit": 7705.0,
+    "stop_loss": 5000.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 15.3,
+    "reward_pct": 30.6,
+    "rr": 2.01
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4062",
    "name": "イビデン",
@@ -10124,6 +11636,15 @@
    "risks": [
     "指数より3.1pt弱い"
    ],
+   "levels": {
+    "entry": 1840.0,
+    "take_profit": 2036.0,
+    "stop_loss": 1742.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 5.3,
+    "reward_pct": 10.7,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6473",
    "name": "ジェイテクト",
@@ -10184,6 +11705,15 @@
    "risks": [
     "指数より2.2pt弱い"
    ],
+   "levels": {
+    "entry": 3879.0,
+    "take_profit": 4190.0,
+    "stop_loss": 3724.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.0,
+    "reward_pct": 8.0,
+    "rr": 2.01
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8802",
    "name": "三菱地所",
@@ -10242,6 +11772,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 2437.0,
+    "take_profit": 2576.0,
+    "stop_loss": 2368.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.8,
+    "reward_pct": 5.7,
+    "rr": 2.01
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4151",
    "name": "協和キリン",
@@ -10304,6 +11843,15 @@
     "指数より3.8pt弱い",
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 1587.0,
+    "take_profit": 1705.0,
+    "stop_loss": 1528.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.7,
+    "reward_pct": 7.4,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "3099",
    "name": "三越伊勢丹ホールディングス",
@@ -10362,6 +11910,15 @@
    "risks": [
     "指数より2.3pt弱い"
    ],
+   "levels": {
+    "entry": 1238.0,
+    "take_profit": 1317.0,
+    "stop_loss": 1199.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.2,
+    "reward_pct": 6.4,
+    "rr": 2.03
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7951",
    "name": "ヤマハ",
@@ -10423,6 +11980,15 @@
    "risks": [
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 2283.0,
+    "take_profit": 2460.0,
+    "stop_loss": 2194.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.9,
+    "reward_pct": 7.8,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9502",
    "name": "中部電力",
@@ -10486,6 +12052,15 @@
     "6か月高値から-50%（中期トレンド崩壊圏）",
     "ATR 7.8%（値動きが荒い）"
    ],
+   "levels": {
+    "entry": 1461.0,
+    "take_profit": 1697.0,
+    "stop_loss": 1343.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 8.1,
+    "reward_pct": 16.2,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6526",
    "name": "ソシオネクスト",
@@ -10549,6 +12124,15 @@
     "6か月高値から-66%（中期トレンド崩壊圏）",
     "ATR 11.7%（値動きが荒い）"
    ],
+   "levels": {
+    "entry": 1716.0,
+    "take_profit": 2143.0,
+    "stop_loss": 1502.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 12.5,
+    "reward_pct": 24.9,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "3436",
    "name": "SUMCO",
@@ -10612,6 +12196,15 @@
     "6か月高値から-57%（中期トレンド崩壊圏）",
     "ATR 8.0%（値動きが荒い）"
    ],
+   "levels": {
+    "entry": 2369.0,
+    "take_profit": 2762.0,
+    "stop_loss": 2172.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 8.3,
+    "reward_pct": 16.6,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5016",
    "name": "JX金属",
@@ -10670,6 +12263,15 @@
     "75日線の上を維持"
    ],
    "risks": [],
+   "levels": {
+    "entry": 3312.0,
+    "take_profit": 3495.0,
+    "stop_loss": 3220.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.8,
+    "reward_pct": 5.5,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8804",
    "name": "東京建物",
@@ -10726,6 +12328,15 @@
    },
    "reasons": [],
    "risks": [],
+   "levels": {
+    "entry": 2072.0,
+    "take_profit": 2131.0,
+    "stop_loss": 1993.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 3.8,
+    "reward_pct": 2.8,
+    "rr": 0.75
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8233",
    "name": "高島屋",
@@ -10782,6 +12393,15 @@
    },
    "reasons": [],
    "risks": [],
+   "levels": {
+    "entry": 2912.0,
+    "take_profit": 2939.0,
+    "stop_loss": 2834.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 2.7,
+    "reward_pct": 0.9,
+    "rr": 0.35
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "1802",
    "name": "大林組",
@@ -10838,6 +12458,15 @@
    },
    "reasons": [],
    "risks": [],
+   "levels": {
+    "entry": 2703.0,
+    "take_profit": 2840.0,
+    "stop_loss": 2634.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.6,
+    "reward_pct": 5.1,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "1808",
    "name": "長谷工コーポレーション",
@@ -10900,6 +12529,15 @@
     "指数より2.4pt弱い",
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 1460.0,
+    "take_profit": 1548.0,
+    "stop_loss": 1416.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.0,
+    "reward_pct": 6.0,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "3407",
    "name": "旭化成",
@@ -10962,6 +12600,15 @@
     "RSI 14（落下中、反転未確認）",
     "25日線乖離 -16.2%（下げ過ぎ）"
    ],
+   "levels": {
+    "entry": 5715.0,
+    "take_profit": 6240.0,
+    "stop_loss": 5455.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.5,
+    "reward_pct": 9.2,
+    "rr": 2.02
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6301",
    "name": "小松製作所",
@@ -11018,6 +12665,15 @@
    },
    "reasons": [],
    "risks": [],
+   "levels": {
+    "entry": 740.0,
+    "take_profit": 782.5,
+    "stop_loss": 718.5,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.9,
+    "reward_pct": 5.7,
+    "rr": 1.98
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7532",
    "name": "パン・パシフィック・インターナショナルホールディングス",
@@ -11080,6 +12736,15 @@
     "指数より3.7pt弱い",
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 4508.0,
+    "take_profit": 4826.0,
+    "stop_loss": 4349.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.5,
+    "reward_pct": 7.1,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8031",
    "name": "三井物産",
@@ -11143,6 +12808,15 @@
     "指数より3.0pt弱い",
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 1926.0,
+    "take_profit": 2067.0,
+    "stop_loss": 1856.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.6,
+    "reward_pct": 7.3,
+    "rr": 2.01
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "1963",
    "name": "日揮ホールディングス",
@@ -11203,6 +12877,15 @@
    "risks": [
     "指数より4.1pt弱い"
    ],
+   "levels": {
+    "entry": 2731.0,
+    "take_profit": 2746.0,
+    "stop_loss": 2615.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 4.2,
+    "reward_pct": 0.5,
+    "rr": 0.13
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4568",
    "name": "第一三共",
@@ -11264,6 +12947,15 @@
    "risks": [
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 2570.0,
+    "take_profit": 2752.0,
+    "stop_loss": 2479.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.5,
+    "reward_pct": 7.1,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7912",
    "name": "大日本印刷",
@@ -11326,6 +13018,15 @@
     "25日線乖離 -18.9%（下げ過ぎ）",
     "6か月高値から-48%（中期トレンド崩壊圏）"
    ],
+   "levels": {
+    "entry": 2661.0,
+    "take_profit": 2964.0,
+    "stop_loss": 2509.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 5.7,
+    "reward_pct": 11.4,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6479",
    "name": "ミネベアミツミ",
@@ -11382,6 +13083,15 @@
    },
    "reasons": [],
    "risks": [],
+   "levels": {
+    "entry": 1236.0,
+    "take_profit": 1303.0,
+    "stop_loss": 1202.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.8,
+    "reward_pct": 5.4,
+    "rr": 1.97
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "3289",
    "name": "東急不動産ホールディングス",
@@ -11442,6 +13152,15 @@
    "risks": [
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 4306.0,
+    "take_profit": 4758.0,
+    "stop_loss": 4080.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 5.2,
+    "reward_pct": 10.5,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6701",
    "name": "日本電気",
@@ -11503,6 +13222,15 @@
     "指数より5.6pt弱い",
     "直近の急変あり（2026-11-06 に -10.8%）―決算等の材料か要確認"
    ],
+   "levels": {
+    "entry": 1800.0,
+    "take_profit": 2013.0,
+    "stop_loss": 1693.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 5.9,
+    "reward_pct": 11.8,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4506",
    "name": "住友ファーマ",
@@ -11564,6 +13292,15 @@
     "RSI 17（落下中、反転未確認）",
     "25日線乖離 -21.0%（下げ過ぎ）"
    ],
+   "levels": {
+    "entry": 2708.0,
+    "take_profit": 3059.0,
+    "stop_loss": 2533.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 6.5,
+    "reward_pct": 13.0,
+    "rr": 2.01
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6971",
    "name": "京セラ",
@@ -11626,6 +13363,15 @@
     "25日線乖離 -32.0%（下げ過ぎ）",
     "6か月高値から-61%（中期トレンド崩壊圏）"
    ],
+   "levels": {
+    "entry": 1320.0,
+    "take_profit": 1557.0,
+    "stop_loss": 1201.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 9.0,
+    "reward_pct": 18.0,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5802",
    "name": "住友電気工業",
@@ -11689,6 +13435,15 @@
     "6か月高値から-38%（中期トレンド崩壊圏）",
     "ATR 7.8%（値動きが荒い）"
    ],
+   "levels": {
+    "entry": 2858.0,
+    "take_profit": 3321.0,
+    "stop_loss": 2626.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 8.1,
+    "reward_pct": 16.2,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6752",
    "name": "パナソニックホールディングス",
@@ -11751,6 +13506,15 @@
     "指数より3.0pt弱い",
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 4919.0,
+    "take_profit": 5217.0,
+    "stop_loss": 4770.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.0,
+    "reward_pct": 6.1,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "1721",
    "name": "コムシスホールディングス",
@@ -11809,6 +13573,15 @@
    "risks": [
     "指数より3.2pt弱い"
    ],
+   "levels": {
+    "entry": 3203.0,
+    "take_profit": 3208.0,
+    "stop_loss": 3079.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 3.9,
+    "reward_pct": 0.2,
+    "rr": 0.04
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "8830",
    "name": "住友不動産",
@@ -11870,6 +13643,15 @@
     "RSI 18（落下中、反転未確認）",
     "6か月高値から-36%（中期トレンド崩壊圏）"
    ],
+   "levels": {
+    "entry": 3839.0,
+    "take_profit": 4209.0,
+    "stop_loss": 3654.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.8,
+    "reward_pct": 9.6,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5711",
    "name": "三菱マテリアル",
@@ -11931,6 +13713,15 @@
     "指数より4.3pt弱い",
     "直近の急変あり（2026-11-05 に +16.7%）―決算等の材料か要確認"
    ],
+   "levels": {
+    "entry": 1662.0,
+    "take_profit": 1785.0,
+    "stop_loss": 1601.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 3.7,
+    "reward_pct": 7.4,
+    "rr": 2.02
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "3401",
    "name": "帝人",
@@ -11993,6 +13784,15 @@
     "指数より2.4pt弱い",
     "25日線乖離 -15.0%（下げ過ぎ）"
    ],
+   "levels": {
+    "entry": 2043.0,
+    "take_profit": 2251.0,
+    "stop_loss": 1939.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 5.1,
+    "reward_pct": 10.2,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6113",
    "name": "アマダ",
@@ -12054,6 +13854,15 @@
     "RSI 15（落下中、反転未確認）",
     "25日線乖離 -19.5%（下げ過ぎ）"
    ],
+   "levels": {
+    "entry": 4545.0,
+    "take_profit": 5040.0,
+    "stop_loss": 4297.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 5.5,
+    "reward_pct": 10.9,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6645",
    "name": "オムロン",
@@ -12117,6 +13926,15 @@
     "6か月高値から-76%（中期トレンド崩壊圏）",
     "ATR 15.9%（値動きが荒い）"
    ],
+   "levels": {
+    "entry": 8015.0,
+    "take_profit": 10780.0,
+    "stop_loss": 6635.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 17.2,
+    "reward_pct": 34.5,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "285A",
    "name": "キオクシアホールディングス",
@@ -12179,6 +13997,15 @@
     "25日線乖離 -35.1%（下げ過ぎ）",
     "6か月高値から-57%（中期トレンド崩壊圏）"
    ],
+   "levels": {
+    "entry": 4875.0,
+    "take_profit": 6035.0,
+    "stop_loss": 4295.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 11.9,
+    "reward_pct": 23.8,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6525",
    "name": "KOKUSAIELECTRIC",
@@ -12241,6 +14068,15 @@
     "25日線乖離 -20.3%（下げ過ぎ）",
     "6か月高値から-37%（中期トレンド崩壊圏）"
    ],
+   "levels": {
+    "entry": 2794.0,
+    "take_profit": 3065.0,
+    "stop_loss": 2658.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.9,
+    "reward_pct": 9.7,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "7011",
    "name": "三菱重工業",
@@ -12299,6 +14135,15 @@
    "risks": [
     "指数より3.7pt弱い"
    ],
+   "levels": {
+    "entry": 2720.0,
+    "take_profit": 2754.0,
+    "stop_loss": 2605.0,
+    "tp_basis": "25日線（平均回帰）",
+    "risk_pct": 4.2,
+    "reward_pct": 1.2,
+    "rr": 0.3
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "3086",
    "name": "J.フロントリテイリング",
@@ -12360,6 +14205,15 @@
     "RSI 19（落下中、反転未確認）",
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 2301.0,
+    "take_profit": 2432.0,
+    "stop_loss": 2236.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 2.8,
+    "reward_pct": 5.7,
+    "rr": 2.02
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4042",
    "name": "東ソー",
@@ -12422,6 +14276,15 @@
     "25日線乖離 -22.6%（下げ過ぎ）",
     "6か月高値から-52%（中期トレンド崩壊圏）"
    ],
+   "levels": {
+    "entry": 3120.0,
+    "take_profit": 3529.0,
+    "stop_loss": 2916.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 6.5,
+    "reward_pct": 13.1,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6361",
    "name": "荏原製作所",
@@ -12484,6 +14347,15 @@
     "25日線乖離 -27.2%（下げ過ぎ）",
     "6か月高値から-49%（中期トレンド崩壊圏）"
    ],
+   "levels": {
+    "entry": 2027.0,
+    "take_profit": 2369.0,
+    "stop_loss": 1856.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 8.4,
+    "reward_pct": 16.9,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6762",
    "name": "TDK",
@@ -12546,6 +14418,15 @@
     "25日線乖離 -40.3%（下げ過ぎ）",
     "6か月高値から-67%（中期トレンド崩壊圏）"
    ],
+   "levels": {
+    "entry": 1884.0,
+    "take_profit": 2386.0,
+    "stop_loss": 1633.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 13.3,
+    "reward_pct": 26.6,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5801",
    "name": "古河電気工業",
@@ -12608,6 +14489,15 @@
     "RSI 16（落下中、反転未確認）",
     "25日線乖離 -19.8%（下げ過ぎ）"
    ],
+   "levels": {
+    "entry": 3374.0,
+    "take_profit": 3792.0,
+    "stop_loss": 3165.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 6.2,
+    "reward_pct": 12.4,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6506",
    "name": "安川電機",
@@ -12668,6 +14558,15 @@
     "25日線乖離 -21.0%（下げ過ぎ）",
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 3164.0,
+    "take_profit": 3533.0,
+    "stop_loss": 2980.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 5.8,
+    "reward_pct": 11.7,
+    "rr": 2.01
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6702",
    "name": "富士通",
@@ -12731,6 +14630,15 @@
     "25日線乖離 -28.3%（下げ過ぎ）",
     "6か月高値から-58%（中期トレンド崩壊圏）"
    ],
+   "levels": {
+    "entry": 3444.0,
+    "take_profit": 4112.0,
+    "stop_loss": 3110.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 9.7,
+    "reward_pct": 19.4,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9984",
    "name": "ソフトバンクグループ",
@@ -12793,6 +14701,15 @@
     "25日線乖離 -31.6%（下げ過ぎ）",
     "6か月高値から-72%（中期トレンド崩壊圏）"
    ],
+   "levels": {
+    "entry": 1471.0,
+    "take_profit": 1802.0,
+    "stop_loss": 1305.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 11.3,
+    "reward_pct": 22.5,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5706",
    "name": "三井金属",
@@ -12855,6 +14772,15 @@
     "25日線乖離 -15.5%（下げ過ぎ）",
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 1146.0,
+    "take_profit": 1242.0,
+    "stop_loss": 1098.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.2,
+    "reward_pct": 8.4,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5020",
    "name": "ENEOSホールディングス",
@@ -12917,6 +14843,15 @@
     "RSI 16（落下中、反転未確認）",
     "25日線乖離 -20.7%（下げ過ぎ）"
    ],
+   "levels": {
+    "entry": 4960.0,
+    "take_profit": 5570.0,
+    "stop_loss": 4655.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 6.1,
+    "reward_pct": 12.3,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5631",
    "name": "日本製鋼所",
@@ -12979,6 +14914,15 @@
     "直近安値を更新して弱い引け（落ちるナイフ注意）",
     "6か月高値から-37%（中期トレンド崩壊圏）"
    ],
+   "levels": {
+    "entry": 3716.0,
+    "take_profit": 4073.0,
+    "stop_loss": 3537.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.8,
+    "reward_pct": 9.6,
+    "rr": 1.99
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6841",
    "name": "横河電機",
@@ -13041,6 +14985,15 @@
     "RSI 15（落下中、反転未確認）",
     "25日線乖離 -16.2%（下げ過ぎ）"
    ],
+   "levels": {
+    "entry": 4227.0,
+    "take_profit": 4638.0,
+    "stop_loss": 4021.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.9,
+    "reward_pct": 9.7,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "2802",
    "name": "味の素",
@@ -13103,6 +15056,15 @@
     "RSI 16（落下中、反転未確認）",
     "25日線乖離 -34.3%（下げ過ぎ）"
    ],
+   "levels": {
+    "entry": 2835.0,
+    "take_profit": 3444.0,
+    "stop_loss": 2530.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 10.8,
+    "reward_pct": 21.5,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5803",
    "name": "フジクラ",
@@ -13165,6 +15127,15 @@
     "25日線乖離 -17.1%（下げ過ぎ）",
     "直近安値を更新して弱い引け（落ちるナイフ注意）"
    ],
+   "levels": {
+    "entry": 402.0,
+    "take_profit": 439.5,
+    "stop_loss": 383.5,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.6,
+    "reward_pct": 9.3,
+    "rr": 2.03
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "9501",
    "name": "東京電力ホールディングス",
@@ -13227,6 +15198,15 @@
     "RSI 12（落下中、反転未確認）",
     "25日線乖離 -19.4%（下げ過ぎ）"
    ],
+   "levels": {
+    "entry": 6530.0,
+    "take_profit": 7145.0,
+    "stop_loss": 6225.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.7,
+    "reward_pct": 9.4,
+    "rr": 2.02
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4021",
    "name": "日産化学",
@@ -13287,6 +15267,15 @@
     "RSI 17（落下中、反転未確認）",
     "25日線乖離 -17.6%（下げ過ぎ）"
    ],
+   "levels": {
+    "entry": 458.0,
+    "take_profit": 508.0,
+    "stop_loss": 433.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 5.5,
+    "reward_pct": 10.9,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "4005",
    "name": "住友化学",
@@ -13349,6 +15338,15 @@
     "RSI 14（落下中、反転未確認）",
     "25日線乖離 -35.4%（下げ過ぎ）"
    ],
+   "levels": {
+    "entry": 2579.0,
+    "take_profit": 3088.0,
+    "stop_loss": 2324.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 9.9,
+    "reward_pct": 19.7,
+    "rr": 2.0
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6963",
    "name": "ローム",
@@ -13409,6 +15407,15 @@
     "RSI 17（落下中、反転未確認）",
     "25日線乖離 -19.4%（下げ過ぎ）"
    ],
+   "levels": {
+    "entry": 2580.0,
+    "take_profit": 2845.0,
+    "stop_loss": 2448.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 5.1,
+    "reward_pct": 10.3,
+    "rr": 2.01
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "6724",
    "name": "セイコーエプソン",
@@ -13469,6 +15476,15 @@
     "RSI 14（落下中、反転未確認）",
     "25日線乖離 -18.7%（下げ過ぎ）"
    ],
+   "levels": {
+    "entry": 1207.0,
+    "take_profit": 1310.0,
+    "stop_loss": 1155.0,
+    "tp_basis": "ATR×2.0",
+    "risk_pct": 4.3,
+    "reward_pct": 8.5,
+    "rr": 1.98
+   },
    "invalid_if": "終値で直近安値を更新したら候補から外す",
    "code": "5019",
    "name": "出光興産",

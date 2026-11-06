@@ -35,6 +35,8 @@
   .tag.reason { background:#22331f; color:#b9e4ae; }
   .tag.risk { background:#3a2326; color:#f0a8ad; }
   .meta { font-size:11px; color:var(--sub); margin-top:6px; }
+  .levels { font-size:12px; margin-top:8px; background:#14171d; border:1px solid var(--line); border-radius:8px; padding:7px 9px; line-height:1.7; }
+  .levels b { font-size:13px; }
   .disc { font-size:11px; color:var(--sub); padding:10px 2px 24px; line-height:1.6; }
   svg.spark { vertical-align:middle; }
 </style>
@@ -79,7 +81,8 @@ fetch("data/ranking.json").then(r=>r.json()).then(d=>{
         <div class="bar"><span class="lbl">${LABELS[k]}</span><span class="track"><span class="fill" style="display:block;width:${(r.breakdown[k]/MAXES[k]*100).toFixed(0)}%"></span></span><span class="val">${r.breakdown[k]}/${MAXES[k]}</span></div>`).join("")}
       </div>
       <div>${r.reasons.map(t=>`<span class="tag reason">${t}</span>`).join("")}${r.risks.map(t=>`<span class="tag risk">⚠ ${t}</span>`).join("")}</div>
-      <div class="meta">RSI ${r.rsi}｜25日線乖離 ${r.dev25_pct}%｜6か月高値から ${r.dd_from_high_pct}%｜出来高 ${r.vol_ratio}倍｜ATR ${r.atr_pct}%<br>無効条件: ${r.invalid_if}</div>
+      ${r.levels ? `<div class="levels">購入目標 <b>${r.levels.entry.toLocaleString("ja-JP")}円</b>（押し目目安）｜利確目標 <b>${r.levels.take_profit.toLocaleString("ja-JP")}円</b>（+${r.levels.reward_pct}%・${r.levels.tp_basis}）｜損切り <b>${r.levels.stop_loss.toLocaleString("ja-JP")}円</b>（-${r.levels.risk_pct}%）｜リスクリワード ${r.levels.rr}</div>` : ""}
+      <div class="meta">RSI ${r.rsi}｜25日線乖離 ${r.dev25_pct}%｜6か月高値から ${r.dd_from_high_pct}%｜出来高 ${r.vol_ratio}倍｜ATR ${r.atr_pct}%<br>無効条件: ${r.invalid_if}｜目標価格はATR(14)基準の機械的な目安（購入=現在値−0.5ATR、損切り=購入−1ATR、利確=購入+2ATRまたは25日線）</div>
     </article>`).join("");
 }).catch(e=>{ document.getElementById("market").textContent="データ読み込みに失敗しました: "+e; });
 </script>
