@@ -1,0 +1,30 @@
+name: ランキング更新
+
+# 平日 07:00 JST（前日終値ベースで当日の候補）と 15:45 JST（当日終値で更新）
+# cron は UTC 指定: 07:00 JST = 22:00 UTC（前日）、15:45 JST = 06:45 UTC
+on:
+  schedule:
+    - cron: "0 22 * * 0-4"
+    - cron: "45 6 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 取得とスコア計算
+        run: python scripts/fetch_and_score.py data/ranking.json
+      - name: コミット
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add data/ranking.json
+          git diff --cached --quiet || git commit -m "ランキング更新"
+          git push
